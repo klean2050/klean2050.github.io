@@ -1,50 +1,42 @@
 ---
-title: "Kleanthis - About"
-layout: textlay
-excerpt: "About"
-sitemap: false
-permalink: /about/
+layout: about
+title: About
+permalink: /
+subtitle: <a href='https://sail.usc.edu'>Signal Analysis and Interpretation Lab</a>
+
+news: true  # includes a list of news items
+latest_posts: true  # includes a list of the newest posts
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
+<link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/custom.css">
 
-# Use this Site as a Template (by Allan Lab)
+<div style="max-width:900px;margin:0 auto;padding-left:1.2em;padding-right:1.2em;">
 
-This website is powered by [Jekyll](https://jekyllrb.com) and uses some [Bootstrap](http://www.getbootstrap.com) and  [Bootswatch](http://www.bootswatch.com). We tried to make it simple yet adaptable, so that it is easy for you to re-use it for your purpose. 
+<br>
+I come from Athens, Greece. I am a PhD Student in Computer Science at the University of Southern California, where I work on Human-Centered Machine Intelligence, under the supervision of Prof. Shrikanth Narayanan. I am using machine learning and biomedical signal processing methods that could help augment human well-being. I am particularly interested in ways to model cognitive and physiological responses to naturalistic stimuli. Feel free to get in touch:
 
-### Getting started
-All pages are written in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for easy editing, and [Jekyll](https://jekyllrb.com) uses Liquid for the data-driven pages. The publicaion list, news items, and group members are stored as `.yml` data sheets (plain text) in the `_data folder`, so that one can update the website easily. The pages are in the `_pages` folder. Updating and maintaining is easy using [Github](http://www.github.com) (not worldpress-easy, but there are other advantages (see e.g. [this](https://www.taniarascia.com/make-a-static-website-with-jekyll/), or [this](http://www.webdesignerdepot.com/2015/11/jekyll-against-the-rest-of-the-world/)). [Jekyll](https://jekyllrb.com) takes all the markdown and data files, and creates beautiful `html` files in the `_site` folder.
+<div style="margin-top: 20px; text-align: center;"><p><h4><span id="typing-text"></span></h4></p></div>
 
-If you never used [Jekyll](https://jekyllrb.com), read the [wikipedia article](https://en.wikipedia.org/wiki/Jekyll_(software)) article and check out [their website](https://jekyllrb.com). Same for [Github](http://www.github.com), which will host your first website draft. 
+<div class="social-bar">
+  <a href="mailto:k.avramidis@windowslive.com" target="_blank" title="Email" aria-label="Email">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><polyline points="22,6 12,13 2,6"/></svg>
+  </a>
+  <a href="https://www.linkedin.com/in/kleanthis-avramidis-274a91114/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="4"/><line x1="7" y1="10" x2="7" y2="17"/><line x1="7" y1="7.5" x2="7" y2="7.51"/><line x1="12" y1="13" x2="12" y2="17"/><path d="M12 13c0-1.1.9-2 2-2s2 .9 2 2v4"/></svg>
+  </a>
+  <a href="https://scholar.google.com/citations?user=mxLN1rUAAAAJ&hl=en" target="_blank" title="Google Scholar" aria-label="Google Scholar">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7l10-4 10 4-10 4-10-4z"/><path d="M6 10v6a6 3 0 0 0 12 0v-6"/><path d="M12 14v7"/></svg>
+  </a>
+  <a href="https://github.com/klean2050" target="_blank" title="GitHub" aria-label="GitHub">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.8c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg>
+  </a>
+  <a href="https://orcid.org/0000-0003-0308-795X" target="_blank" title="ORCID" aria-label="ORCID">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/>
+    <text x="12" y="16" text-anchor="middle" font-size="10" fill="currentColor" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="100">i D</text>
+  </svg>
+  </a>
+</div>
 
-Create and open a github account, go to [our repository](https://github.com/allanlab/allanlab), and click 'fork'. This is now your copy of the website, and you can change and adapt it as you want. You don't have to link to us or mention us (but of course we appreciate it). Then change the name of the repository to "your_username" and the name of the branch to "gh-pages".  Your website is now automatically published under *your_username.github.io/your_username/*. Except that it probably still looks like our website. 
-
-To modify the webpage, you can either do everything on on github.com (go to a file, click "edit", then "commit", "push"), or install  [Jekyll](https://jekyllrb.com) on your computer and play with your local copy that you sync with the branch on github.com.  The former is much easier in the beginning, but a bit less convenient once you start rewriting everythint. To get it to work on your computer (and to learn a bit more about [Jekyll](https://jekyllrb.com)), [here](https://www.taniarascia.com/make-a-static-website-with-jekyll/) and [here](https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme) are tutorials on how to use it and how set it up locally. Also, consider using the [Github desktop app](http://www.desktop.github.com), I found it helpful.  
-
-### Customization
-Now let's make this *your* website. 
-
-First, go to the `news.ylm`, `publist.ylm`, and `team.ylm` files in the `_data` folder and insert your own data into the data fields. Watch out:  [Jekyll](https://jekyllrb.com) is quite strict about extra or missing spaces etc. Adhere to the format. In the beginning, test each change: commit, push, and check the published website.
-
-For publications, you can add a "1" in the highlight field, then it will be featured prominently. You can add important  news items (red, "news1"), and less important  news items (blue, "news2").
-
-For the news items, just keep adding them. The first 10 will be displayed on the 'home' page.
-
-For the `team.ylm` file
-
-Next, change the content of all files in the `_pages` folder.  To change the title in the homepage, go to `homelay.html` in the `_layout` folder.
-
-Lastly, change the footer and perhaps header appropriately (in `_include`).
-
-You might also want to change the style or theme. I imported style files (in sass) from Bootstrap/Bootwatch, you can replace them with your own (in the `_sass directory`). For small changes, just work on the override stuff in the `main.sass` file in the `CSS` folder. Or change some variables in the `_variables.sass` file, like the background color etc. 
-
-As said, [Jekyll](https://jekyllrb.com) takes all the markdown and data files, and creates beautiful `html` files in the `_site` folder.In the end, either upload these files  to your server, or buy yourself a domain and check the instructions on github on how to host it there.
-
-### Copyright / credit
-
-You can use this template as you please. You don't have to link to us or mention us (but of course we appreciate it). We also welcome it if you send us an email with a link to your website, perhaps we'll publish a list here at some point. 
-
-Comments welcome.
-
-Code released under the MIT License. 
-
-
-
+</div>

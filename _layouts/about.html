@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<!-- about.html -->
+      <div class="post">
+        <header class="post-header" style="text-align:center;">
+          <div style="text-align: center;">
+            <img src="assets/img/header.jpeg" width="96%">
+          </div>
+          <div style="margin-top: 42px; text-align: center;"><p><h3><span id="typing-text"></span></h3></p></div>
+          <h1 class="post-title">
+            {% if site.title == "blank" -%}
+              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} <span class="font-weight-bold">{{ site.last_name }}</span>
+            {%- else -%}
+              {{ site.title }}
+            {%- endif %}
+          <p class="desc" style="font-size:1.1em;">{{ page.subtitle }}</p>
+        </header>
+
+        <article>
+          {% if page.profile -%}
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            {%- if page.profile.image %}
+              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+
+              {% if page.profile.image_circular %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+              {% else %}
+                {%- assign profile_image_class = "img-fluid z-depth-0 rounded" -%}
+              {% endif %}
+
+              {% include figure.html
+              path=profile_image_path
+              class=profile_image_class
+              alt=page.profile.image
+              width="16%"-%}
+            {% endif -%}
+            {%- if page.profile.more_info %}
+            <div class="more-info">
+              {{ page.profile.more_info }}
+            </div>
+            {%- endif %}
+          </div>
+          {%- endif %}
+
+          <div class="clearfix">
+            {{ content }}
+
+          <!-- News -->
+           <div style="height: 1px;"></div>
+          {% if page.news and site.announcements.enabled -%}
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;"></a></h2>
+            {%- include news_from_data.html %}
+          {%- endif %}
+        </div>
+        </article>
+
+</div>

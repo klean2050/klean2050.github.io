@@ -1,116 +1,76 @@
-- date: 2 February 2024
-  headline: "2 new papers are out on arXiv, spanning eye-tracking for biomedical apps and deep learning on EEG."
-
-- date: 25 December 2023
-  headline: "Happy to share that I will spend this summer in New York City, as a Research Scientist Intern at <a href='https://about.meta.com/realitylabs/'>Meta Reality Labs</a> :D"
-
-- date: 15 December 2023
-  headline: "My amazing colleague and mentee Shanti has his first-authored paper on multimodal music analysis accepted in <a href='https://2024.ieeeicassp.org/'>ICASSP 2024</a>. Congrats!"
-
-- date: 7 November 2023
-  headline: "Happy to share that I just passed my qualification exam toward the PhD degree in Computer Science at USC! One step closer and more to come."
-
-- date: 19 October 2023
-  headline: "Participating in the <a href='https://cuttinggardens2023.org/gardens/los-angeles/'>CuttingEEG workshop</a> of Los Angeles, organized by amazing collaborators at USC."
-
-- date: 11 October 2023
-  headline: "Our study, led by Dr. Melinda Chang, on AI for pediatric papilledema, has been accepted for publication in <a href='https://www.ophthalmologyscience.org/'>Ophthalmology Science</a>!"
-
-- date: 26 September 2023
-  headline: "Our most recent <a href='https://arxiv.org/pdf/2309.15292.pdf'>work</a> on advancing representation learning for ubiquitous ECG signals is out on arXiv."
-
-- date: 4 June 2023
-  headline: "Just arrived at Rhodes, Greece for an amazing <a href='https://2023.ieeeicassp.org/'>ICASSP</a> week <3"
-
-- date: 22 May 2023
-  headline: "My first industry experience starts today as I am interning as a summer co-op at the <a href='https://amrd.toyota.com/division/trina/'>Toyota Research Insitute North America</a> in Ann Arbor!"
-
-- date: 1 May 2023
-  headline: "Glad to take part in the <a href='https://epic-collab.github.io/competition/'>EPiC challenge</a>, organized by amazing colleagues from <a href='https://emognition.com/'>Emognition Lab</a> within <a href='https://acii-conf.net/2023/'>ACII 2023</a>."
-
-- date: 12 April 2023
-  headline: "Excited for the research prospects ahead as our team at USC kicks off new DARPA project on assessing preconscious biomarkers of suicidality."
-
-- date: 31 March 2023
-  headline: "Our work on pediatric papilledema received a best poster award the the <a href='https://www.aapos.org/home'>2023 AAPOS meeting</a> in New York!"
-
-- date: 30 March 2023
-  headline: "In Long Beach these days, giving a talk on human sensing to foster child and family well-being at the <a href='https://society-for-affective-science.org/'>2023 Annual SAS Conference</a>."
-
-- date: 20 March 2023
-  headline: "Happy to share that I will be travelling (again) to Greece this summer, presenting 3 accepted papers in <a href='https://2023.ieeeicassp.org/'>ICASSP 2023</a>."
-
-- date: 2 March 2023
-  headline: "2 new papers are out on arXiv, investigating biomarkers in sensing psychotic disorders as well as points of change in physiological arousal during driving."
-  
-- date: 10 November 2022
-  headline: "Excited to participate in the <a href='https://brain.ieee.org/event/ieee-brain-discovery-neurotechnology-workshop/'>IEEE Neurotechnology Workshop</a> in amazing San Diego."
-
-- date: 1 November 2022
-  headline: "Presenting our contributions in pediatric Ophthalmology at the <a href='https://futurevisionfound.org/2022-future-vision-forum'>2022 Future Vision Forum</a>, taking place here at USC."
-
-- date: 26 October 2022
-  headline: "New <a href='https://arxiv.org/abs/2210.15828'>paper</a> including further insights on how AI can leverage visual context to estimate music semantics."
-
-- date: 7 August 2022
-  headline: "Glad to have been selected and now attending the <a href='https://www.oxfordml.school/oxml2022'>2022 MLxHealth Oxford Summer School</a>, while taking some time off in Greece."
-
-- date: 15 July 2022
-  headline: "Welcoming emotion researchers as volunteer and presenter at <a href='https://web.cvent.com/event/958d5907-c2f6-4e2d-a783-7e2ec267fcc0/summary'>ISRE 2022</a> in Los Angeles!"
-
-- date: 21 June 2022
-  headline: "Our paper for identifying pediatric papilledema has been accepted for publication at <a href='https://2022.ieeeicip.org/'>ICIP 2022</a>!"
-
-- date: 25 February 2022
-  headline: "New <a href='https://arxiv.org/abs/2207.04565'>paper</a> investigating explainable augmentation and learning methods for identifying papilledema in children."
-
-- date: 4 February 2022
-  headline: "Our proposal submission for <a href='https://web.cvent.com/event/958d5907-c2f6-4e2d-a783-7e2ec267fcc0/summary'>ISRE</a> is accepted! We will work on self-supervised models to perceive affect in media."
-
-- date: 21 January 2022
-  headline: "Our <a href='https://arxiv.org/abs/2202.09750'>paper</a> on EEG Affective Analysis has been accepted for publication at <a href='https://2022.ieeeicassp.org/'>ICASSP 2022</a>."
-
-- date: 14 January 2022
-  headline: "Second Prize at <a href='https://demondementia.com/neurohack2022/'>Neurohack 2022</a> for our work on identifying robust markers of dementia! Thanks to the DEMON Network!"
-
-- date: 22 August 2021
-  headline: "Thrilled to be in yet another EUSIPCO where I will present our <a href='https://arxiv.org/abs/2010.16310'>paper</a> on EEG Fractal Analysis."
-
-- date: 9 August 2021
-  headline: "Landing in Los Angeles for an exciting new start as a PhD Student at <a href='https://www.usc.edu/'>USC</a>. Fight On!"
-
-- date: 20 July 2021
-  headline: "A long journey comes to an end. Presenting my Master's <a href='https://www.researchgate.net/publication/356981895_Affective_Analysis_and_Interpretation_of_Brain_Responses_to_Music_Stimuli'>Thesis</a> to complete my undergraduate studies at <a href='https://www.ece.ntua.gr/en'>ECE NTUA</a>."
-
-- date: 4 May 2021
-  headline: "Our <a href='https://arxiv.org/abs/2010.16310'>paper</a> on EEG Fractal Analysis has been accepted for publication at <a href='https://eusipco2021.org/'>EUSIPCO 2021</a>."
-
-- date: 9 April 2021
-  headline: "I have accepted a PhD student position at the <a href='https://www.usc.edu/'>University of Southern California</a>, starting this Fall!"
-
-- date: 15 February 2021
-  headline: "New website is online. Enjoy!"
-  
-- date: 14 February 2021
-  headline: "Participated in <a href='https://qworld.lu.lv/index.php/qbronze53-qgreece/'>QBronze53</a> Quantum Computing and Programming workshop organized by QWorld in Greece."
-  
-- date: 11 February 2021
-  headline: "Accepted to participate in <a href='https://hcap-challenge.mitefgreece.org/eydap-innochallenge/'>HCAP Innovation Challenge</a>! Looking forward to building useful models for the public."
-  
-- date: 6 February 2021
-  headline: "Our new <a href='https://arxiv.org/abs/2102.06930'>paper</a> on Instrument Classification has been accepted for publication at <a href='https://2021.ieeeicassp.org/'>ICASSP 2021</a>."
-  
-- date: 20 January 2021
-  headline: "Excited to present our first <a href='https://arxiv.org/abs/1911.12505'>paper</a> on Instrument Classification at <a href='https://eusipco2020.org/'>EUSIPCO 2020</a>."
-
-- date: 18-22 January 2021
-  headline: "Participating in the online <a href='https://eusipco2020.org/'>EUSIPCO 2020</a>. Lots of interesting studies!"
-  
-- date: 23 December 2020
-  headline: "New <a href='https://arxiv.org/abs/2101.08535'>paper on arXiv</a>, on Instrument Classification!"
-  
-- date: 23 December 2020
-  headline: "New <a href='https://arxiv.org/abs/2010.16310'>paper on arXiv</a>, on EEG Multifractal Analysis!"
-  
-- date: 15 May 2020
-  headline: "My first <a href='https://arxiv.org/abs/1911.12505'>paper on arXiv</a>, on Instrument Classification! It is my first publication, at <a href='https://eusipco2020.org/'>EUSIPCO 2020</a>."
+  - date: 2025-08-06
+    content: "Our work on modeling child-parent interactions with ubiquitous sensors is now published at npj Mental Health Research!"
+  - date: 2025-06-30
+    content: "Wrapping up a great month visiting the Technical University of Munich and working under the guidance of Prof. Björn Schuller."
+  - date: 2025-06-15
+    content: " Just received a grant from the USC Center for Music, Brain, and Society to investigate neural entrainment to music!"
+  - date: 2025-04-06
+    content: "Co-organized the Workshop on Brain-Body-Behavior Signal Dynamics at ICASSP 2025 in Hyderabad, India."
+  - date: 2025-03-04
+    content: "Excited to kick off a new collaboration with the Chair of Health Informatics at the Technical University of Munich. We will be working on EMG and silent paralinguistics, including both data collection and machine learning analysis."
+  - date: 2024-10-21
+    content: "I was glad to receive an outstanding poster award for our eye-tracking study at the 2024 USC ECE Research Festival!"
+  - date: 2024-06-27
+    content: "Our work on efficient representation learning from ECG signals is accepted for publication at the IEEE J-BHI. Excited to work on this project with our collaborators from the Emognition Lab at Wrocław University of Science and Technology."
+  - date: 2024-06-04
+    content: "We had one paper accepted to Interspeech 2024 on how to decode listened speech from brain activity!"
+  - date: 2024-04-22
+    content: "Excited to share that I have received the IEEE EMBC NextGen Scholar Award to attend EMBC 2024, for which I author two studies, spanning eye-tracking for biomedical applications and representation learning on EEG."
+  - date: 2023-12-25
+    content: "Happy to share that I will spend this summer in New York City, as a Research Scientist Intern at Meta Reality Labs :D"
+  - date: 2023-11-07
+    content: "Happy to share that I just passed my qualification exam toward the PhD degree in Computer Science at USC!"
+  - date: 2023-10-19
+    content: "Participating in the CuttingEEG workshop of Los Angeles, organized by amazing collaborators at USC."
+  - date: 2023-10-11
+    content: "Our study, led by Dr. Melinda Chang, on AI for pediatric papilledema, will be published in Ophthalmology Science!"
+  - date: 2023-09-26
+    content: "Our most recent work on advancing representation learning for ubiquitous ECG signals is out on arXiv."
+  - date: 2023-06-04
+    content: "Just arrived at Rhodes, Greece for an amazing ICASSP week <3"
+  - date: 2023-05-22
+    content: "My first industry experience starts today as I am interning as a summer co-op at the Toyota Research Insitute North America in Ann Arbor!"
+  - date: 2023-04-12
+    content: "Excited for the research prospects ahead as our team at USC kicks off new DARPA project on assessing preconscious biomarkers of suicidality."
+  - date: 2023-03-31
+    content: "Our work on pediatric papilledema received a best poster award the the 2023 AAPOS meeting in New York!"
+  - date: 2023-03-30
+    content: "In Long Beach these days, giving a talk on human sensing to foster child and family well-being at the 2023 Annual SAS Conference."
+  - date: 2023-03-20
+    content: "Happy to share that I will be travelling (again) to Greece this summer, presenting 3 accepted papers in ICASSP 2023."
+  - date: 2022-11-10
+    content: "Excited to participate in the IEEE Neurotechnology Workshop in amazing San Diego."
+  - date: 2022-11-01
+    content: "Presenting our contributions in pediatric Ophthalmology at the 2022 Future Vision Forum, taking place here at USC."
+  - date: 2022-10-26
+    content: "New paper including further insights on how AI can leverage visual context to estimate music semantics."
+  - date: 2022-08-07
+    content: "Glad to have been selected and now attending the 2022 MLxHealth Oxford Summer School, while taking some time off in Greece."
+  - date: 2022-07-15
+    content: "Welcoming emotion researchers as volunteer and presenter at ISRE 2022 in Los Angeles!"
+  - date: 2022-06-21
+    content: "Our paper for identifying pediatric papilledema has been accepted for publication at ICIP 2022!"
+  - date: 2022-02-04
+    content: "Our proposal submission for ISRE is accepted! We will work on self-supervised models to perceive affect in media."
+  - date: 2022-01-21
+    content: "Our paper on EEG Affective Analysis has been accepted for publication at ICASSP 2022."
+  - date: 2022-01-14
+    content: "Second Prize at Neurohack 2022 for our work on identifying robust markers of dementia! Thanks to the DEMON Network!"
+  - date: 2021-08-22
+    content: "Thrilled to be in yet another EUSIPCO where I will present our paper on EEG Fractal Analysis."
+  - date: 2021-07-20
+    content: "A long journey comes to an end. Presenting my Master's Thesis to complete my undergraduate studies at ECE NTUA. In a few days I will be landing in Los Angeles for an exciting new start as a PhD Student at USC. Fight On!"
+  - date: 2021-05-04
+    content: "Our paper on EEG Fractal Analysis has been accepted for publication at EUSIPCO 2021."
+  - date: 2021-04-09
+    content: "I have accepted a PhD student position at the University of Southern California, starting this Fall!"
+  - date: 2021-02-14
+    content: "Participated in QBronze53 Quantum Computing and Programming workshop organized by QWorld in Greece."
+  - date: 2021-02-11
+    content: "Accepted to participate in HCAP Innovation Challenge! Looking forward to building useful models for the public."
+  - date: 2021-02-06
+    content: "Our new paper on Instrument Classification has been accepted for publication at ICASSP 2021."
+  - date: 2021-01-18
+    content: "These days I am participating and presenting at the online EUSIPCO 2020."
+  - date: 2020-05-15
+    content: "My first ever publication, on Instrument Classification, will be presented at EUSIPCO 2020."

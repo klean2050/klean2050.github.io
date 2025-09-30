@@ -1,4 +1,20 @@
 source 'https://rubygems.org'
 
 gem "jekyll", ">= 3.6.3"
+gem "feedjira"
+gem "httparty"
+gem "jekyll-archives"
+gem "jekyll-diagrams"
+gem "jekyll-email-protect"
+gem "jekyll-feed"
+gem "jekyll-get-json"
+gem "jekyll-imagemagick"
+gem "jekyll-jupyter-notebook"
+gem "jekyll-link-attributes"
+gem "jekyll-minifier"
+gem "jekyll-paginate-v2"
+gem "jekyll-scholar"       # note: in Gemfile it's written as jekyll-scholar, not jekyll/scholar
+gem "jekyll-sitemap"
+gem "jekyll-toc"
+gem "jekyll-twitter-plugin"
 gem "jemoji"
