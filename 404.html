@@ -1,1 +1,90 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="UTF-8"> <title>Page Not Found</title> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <style>body{font-family:sans-serif;text-align:center;padding:4em;background:#f8f8f8;color:#333}h1{font-size:3em;margin-bottom:.5em}p{font-size:1.2em}a{color:#b80231;text-decoration:none}a:hover{text-decoration:underline}</style> </head> <body> <h1>404</h1> <p>Sorry, the page you are looking for does not exist.</p> <p><a href="/">Return to the homepage</a></p> </body> </html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<script>try{if((localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"))==="dark")document.documentElement.dataset.theme="dark"}catch(e){}</script>
+<title>Signal not found — Kleanthis Avramidis</title>
+<!-- shortcut: root-absolute paths, because GitHub Pages serves this page at any missing URL depth; they only work for a user site (klean2050.github.io), switch to the project path if hosted under a subpath. -->
+<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23334fc4'/%3E%3Ctext x='20' y='28' text-anchor='middle' font-family='Arial' font-size='24' fill='white'%3EK%3C/text%3E%3C/svg%3E">
+<style>
+.lost {
+  padding:40px 0 56px;
+  max-width:680px}
+.lost-code {
+  margin:0 0 6px;
+  font-size:14px;
+  color:var(--accent);
+  font-variant-numeric:tabular-nums;
+  letter-spacing:.08em;
+  text-transform:uppercase}
+.trace {
+  display:block;
+  width:100%;
+  height:auto;
+  margin:8px 0 22px;
+  background:var(--soft);
+  border-radius:10px}
+.trace-line {
+  stroke:var(--accent);
+  stroke-width:2;
+  vector-effect:non-scaling-stroke;
+  stroke-dasharray:1;
+  stroke-dashoffset:1;
+  animation:record 3.2s ease-out .3s forwards}
+.trace-dot {
+  fill:var(--accent);
+  opacity:0;
+  animation:blink 1s step-end 3.5s infinite}
+.trace-label {
+  fill:var(--muted);
+  stroke:none;
+  font:14px var(--sans)}
+@keyframes record {
+  to {
+    stroke-dashoffset:0}
+}
+@keyframes blink {
+  50% {
+    opacity:1}
+}
+@media(prefers-reduced-motion:reduce) {
+  .trace-line {
+    animation:none;
+    stroke-dashoffset:0}
+  .trace-dot {
+    animation:none;
+    opacity:1}
+}
+@media(max-width:520px) {
+  .trace-label {
+    font-size:22px}
+}
+</style>
+</head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<nav class="nav" aria-label="Main navigation"><button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+<div id="nav-links"><a href="/">About</a><a href="/assets/Kleanthis-Avramidis-CV.pdf" target="_blank" rel="noopener">CV</a><a href="/publications/">Publications</a><a href="/teaching/">Teaching</a><a href="/clicks/">Clicks</a>
+</div>
+<button id="theme-toggle" aria-label="Switch to dark theme" title="Switch to dark theme"><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.7 13.2A8.5 8.5 0 0 1 10.8 3.3a8.5 8.5 0 1 0 9.9 9.9Z"/></svg><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button>
+</nav>
+</header>
+<main class="wrap lost" id="main">
+<p class="lost-code">Error 404</p>
+<h1>Signal not found</h1>
+<svg class="trace" viewBox="0 0 640 120" role="img" aria-label="A brain signal that wiggles for a while, then goes completely flat">
+<path class="trace-line" pathLength="1" d="M0 65 L4 70 L8 76 L12 61 L16 70 L20 73 L24 70 L28 68 L32 42 L36 36 L40 28 L44 38 L48 54 L52 63 L56 48 L60 52 L64 70 L68 90 L72 89 L76 77 L80 72 L84 44 L88 57 L92 50 L96 46 L100 38 L104 34 L108 47 L112 51 L116 75 L120 54 L124 45 L128 96 L132 59 L136 63 L140 67 L144 66 L148 45 L152 31 L156 36 L160 46 L164 56 L168 69 L172 65 L176 57 L180 72 L184 83 L188 93 L192 80 L196 55 L200 55 L204 38 L208 49 L212 56 L216 41 L220 41 L224 38 L228 65 L232 83 L236 87 L240 86 L244 65 L248 67 L252 67 L256 67 L260 27 L264 75 L268 41 L272 35 L276 53 L280 56 L284 73 L288 70 L292 74 L296 77 L300 77 L304 81 L308 74 L312 45 L316 40 L320 34 L324 41 L328 45 L332 55 L336 40 L340 47 L344 64 L348 89 L352 80 L356 78 L360 66 L364 65 L368 64 L372 67 L376 50 L380 40 L384 33 L388 47 L392 62 L396 62 L400 66 L404 64 L408 61 L412 64 L416 65 L420 63 L424 60 L428 59 L432 60 L612 60"/>
+<circle class="trace-dot" cx="618" cy="60" r="4"/>
+<text class="trace-label" x="525" y="46" text-anchor="middle">this page ↓</text>
+</svg>
+</main>
+<footer>
+<p>© Kleanthis Avramidis<span class="last-updated"></span></p>
+</footer>
+<script src="/assets/js/site.js">
+</script>
+</body>
+</html>

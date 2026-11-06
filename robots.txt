@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://sail.usc.edu/sitemap.xml

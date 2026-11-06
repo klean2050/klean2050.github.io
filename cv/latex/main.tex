@@ -1,0 +1,493 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+%\usepackage{helvet}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\usepackage{etaremune}
+\usepackage{pifont}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{needspace}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\definecolor{accent}{HTML}{4338CA}
+\renewcommand{\sectionfont}{\small\leavevmode\color{accent}}
+\usepackage[colorlinks=true,urlcolor=accent,linkcolor=accent]{hyperref}
+\hypersetup{pdftitle={Kleanthis Avramidis - Curriculum Vitae},pdfauthor={Kleanthis Avramidis}}
+\urlstyle{same}
+\setlist[itemize]{topsep=2pt,itemsep=1pt,parsep=0pt,partopsep=0pt}
+\setlist[enumerate]{topsep=2pt,itemsep=4pt,parsep=0pt,partopsep=0pt}
+\setlength{\emergencystretch}{2em}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\scriptsize Updated November 5, 2026}
+\fancyfoot[R]{\scriptsize\thepage}
+% Separate columns keep long titles from colliding with dates.
+\newcommand{\cvheading}[2]{%
+  \par\Needspace{4\baselineskip}\noindent
+  \parbox[t]{\dimexpr\linewidth-110pt\relax}{\raggedright\bfseries #1}%
+  \hfill\parbox[t]{98pt}{\raggedleft\itshape #2}%
+  \par\nopagebreak[4]\vspace{-\parskip}\noindent\ignorespaces}
+
+% Increase text height
+\textheight=660pt
+\setlength{\parskip}{8pt}
+
+\begin{document}
+\name{\color{accent}Kleanthis Avramidis \vspace{2mm}}
+
+\address{3710 McClintock Ave., RTH 318 \\ Los Angeles, CA 90089, United States}
+\address{\color{accent}\faIcon{envelope} \href{mailto:avramidi@usc.edu}{avramidi@usc.edu} \\ \color{accent}\faIcon{globe} \href{https://klean2050.github.io/}{klean2050.github.io}}
+
+\begin{resume}
+
+\section{RESEARCH INTERESTS}
+
+Learning transferable biosignal representations \\ Understanding multimodal dynamics of behavior \\ Improving health outcomes and clinical translation
+
+\section{EDUCATION}
+
+\cvheading{PhD in Computer Science}{08/2021 - Present} University of Southern California (USC), Los Angeles, CA \\ Advisor: Prof. Shrikanth Narayanan
+\\ Current GPA: 3.83/4, \; Projected graduation: Fall 2026
+
+\vspace{-1mm}
+\cvheading{Joint BSc \& MEng in Electrical Engineering}{10/2015 - 07/2021} National Technical University of Athens (NTUA), Greece \\ Advisor: Prof. Petros Maragos
+\\ GPA: 8.40/10 (top 12\%), \; Specialization GPA: 9.14/10
+
+%\cvheading{High School Diploma}{September 2012 - June 2015} 3rd High School of Agia Paraskevi, Greece \\ GPA: 19.7/20, \quad University Entrance Examination: 18.9/20 (top 1\%)
+
+%\section {COURSEWORK}
+
+%\textit{Undergraduate}: (among others) Speech and Language Processing, Computer Vision, Intelligent Systems, Pattern Recognition, Robotics, Human-Computer Interaction
+%\\ \textit{Graduate}: Advanced Algorithm Analysis, Advanced Computer Vision, AI for Social Good, Deep Learning \& Applications, Affective Computing, Seminar in CS Research
+
+\section{RESEARCH PROJECTS}
+
+% \cvheading{Sensing Neurobehavioral Trajectories in Everyday Life}{05/2023 - 08/2025}
+% USC - UCLA
+% \vspace{1mm}
+% \begin{itemize}
+%     \item Extending biomarkers for depression and suicidality with longitudinal sensing 
+%     \vspace{-1mm}
+% \end{itemize}
+
+\cvheading{Entrainment in Expert and Novice Musicians}{07/2025 - Present}
+USC Center for Music, Brain, and Society
+\vspace{1mm}
+\begin{itemize}
+    \item Methods to quantify and compare neurophysiological entrainment to music
+    \vspace{-1mm}
+    \item Identification of differences in attentional strategies and emotional responses
+    \vspace{-1mm}
+    \item Predominant musical elements in driving entrainment intensity
+\end{itemize}
+
+\cvheading{Speech Paralinguistics from Facial Muscle Activity}{09/2024 - Present}
+USC - Technical University of Munich (TUM)
+\vspace{1mm}
+\begin{itemize}
+    \item Developing machine learning models for translating between EMG activations and audio speech waveforms with application to silent speech interfaces
+    \vspace{-1mm}
+    \item Analysis of the temporal dynamics of muscle activation in speech production
+    \vspace{-1mm}
+    \item Affective elements of speech in vocal versus silent articulation
+\end{itemize}
+
+\vspace{-1mm}
+\cvheading{PRECOG: Multimodal Integration of Neural and Biobehavioral Signals for Predicting Preconscious Responses}{05/2023 - 08/2025}
+USC - UCLA
+\vspace{1mm}
+\begin{itemize}
+    \item Developing representation learning models for brain activity signals (EEG)
+    \vspace{-1mm}
+    \item Analysis of human physiology (ECG, GSR, eye-tracking) in controlled settings
+    \vspace{-1mm}
+    \item Inference on detecting biomarkers of depression and suicidal ideation
+    \vspace{-1mm}
+    \item Applied trial-based bootstrapping to regularize deep learning modeling of short experimental trials, applied on eye tracking; first-authored 2 articles
+\end{itemize}
+
+\vspace{-1mm}
+\cvheading{Sensor Fusion for Affective State Detection in Driving}{05/2022 - 06/2025}
+USC - Toyota Research Institute NA - MIRISE
+\vspace{1mm}
+\begin{itemize}
+    \item Developing methods for sensor fusion \& self-supervision on physiological signals
+    \vspace{-1mm}
+    \item Coordinating multiple data collection processes in the driving setting
+    \vspace{-1mm}
+    \item Applied methods for Time-Series Segmentation and Clustering to detect \\ change points in drivers' affective state; authored 2 articles
+\end{itemize}
+
+\vspace{-1mm}
+\cvheading{NSF SCH: Wearable Sensing of Workplace Stress}{09/2023 - Present}
+USC Occupational Therapy - Engineering
+\vspace{1mm}
+\begin{itemize}
+    \item Coordinating longitudinal data collection using biobehavioral sensors
+    \vspace{-1mm}
+    \item Application of AI methods to determine personalized stress patterns
+\end{itemize}
+
+\vspace{-1mm}
+\cvheading{CVI Evaluation through Eye-tracking Technology}{02/2022 - 06/2024}
+USC - Children's Hospital Los Angeles
+\vspace{1mm}
+\begin{itemize}
+    \item Designing maps of visual saliency on stimulus images to assess differences of Cortical Visual Impairment (CVI) cases against controls%. \textbf{Tools}: opencv, scikit-image
+\end{itemize}
+
+\vspace{-1mm}
+\cvheading{Automatic Differentiation of Pediatric Papilledema}{02/2022 - 08/2023}
+USC - Children's Hospital Los Angeles - External Sites
+\vspace{1mm}
+\begin{itemize}
+    \item Building deep learning models to differentiate Papilledema from pseudo-cases \\ in challenging pediatric cases, with data collected from multiple sites
+    \vspace{-1mm}
+    \item Contributed 1 publication and 2 abstracts within an interdisciplinary team%. \textbf{Tools}: git, pytorch, opencv, transformers
+\end{itemize}
+
+%\vspace{-1mm}
+\cvheading{Wearable Sensing for Family Well-being}{10/2021 - 08/2023}
+UT Austin - Texas A\&M - USC
+\vspace{1mm}
+\begin{itemize}
+    \item Configured scripts to clean and process raw data from multiple wearable sensors
+    \vspace{-1mm}
+    \item Leading the development of statistical and learning methods to identify predictive elements of family reported well-being and conflict%. \textbf{Tools}: git, pandas, scikit-learn
+    \vspace{-1mm}
+    \item Contributing and cooperating with collaborators from the Psychology field
+    \vspace{-1mm}
+    \item Expanding methodologies to relevant projects on assessing workplace stress
+\end{itemize}
+
+%\vspace{-1mm}
+\cvheading{Diploma Thesis, NTUA}{05/2020 - 07/2021}
+Title: Affective Analysis and Interpretation of Brain Responses to Music Stimuli
+\vspace{1mm}
+\begin{itemize}
+    \item Applied elements of Multiscale Fractal Analysis to extract affective characteristics from music-induced EEG signals. Authored 1 publication.
+    \vspace{-1mm}
+    \item Developed multimodal models to connect music audio and EEG features \\ using adversarial and contrastive learning objectives. Authored 1 publication.
+    %\vspace{-1mm}
+    %\item \textbf{Tools}: MATLAB, pytorch, librosa, scipy, pydub, \LaTeX
+\end{itemize}
+
+\section{WORK EXPERIENCE}
+
+%\vspace{-1mm}
+\cvheading{Signal Analysis and Interpretation Lab}{08/2021 - Present}
+University of Southern California, Los Angeles, CA \\
+\textit{Graduate Research Assistant}, under Prof. Shrikanth Narayanan
+\vspace{1mm}
+\begin{itemize}
+    \item Develop machine learning methods for physiological and behavioral signals, with applications in representation learning and health assessment.
+    \item Coordinate project meetings and mentor students in interdisciplinary research.
+\end{itemize}
+\par
+\cvheading{Audio \& Acoustics Research Group}{05/2026 - 08/2026}
+Microsoft Corporation, Redmond, WA \\
+\textit{Research Intern}, under Dimitra Emmanouilidou, PhD
+\vspace{1mm}
+\begin{itemize}
+    \item Developed BrainCodes, a lightweight EEG foundation model over discrete neural codes.
+    \item Designed spatial and spectral probes to examine the physiological grounding of EEG foundation models.
+\end{itemize}
+%\vspace{-2mm}
+\par
+\cvheading{Chair of Health Informatics}{05/2025 - 06/2025}
+Technical University of Munich, Germany \\
+\textit{Visiting Doctoral Researcher}, under Prof. Björn Schuller
+\vspace{1mm}
+\begin{itemize}
+    \item Contributed to a study on Silent Paralinguistics, including data collection design and analysis of surface electromyography (EMG) during speech production
+\end{itemize}
+%\vspace{-2mm}
+\par
+\begin{minipage}[t]{\linewidth}
+\cvheading{Meta Reality Labs}{05/2024 - 08/2024}
+Meta Platforms Inc., New York City, NY \\
+\textit{Research Scientist Intern}, under Nariman Farsad, PhD
+\vspace{1mm}
+\begin{itemize}
+    \item Developed AI methods for advancing augmented reality experiences
+    \vspace{-1mm}
+    \item Created machine learning models for decoding neuromotor signals
+\end{itemize}
+\end{minipage}\par
+%\vspace{-2mm}
+\par
+\cvheading{Toyota Research Institute of North America}{05/2023 - 08/2023}
+Toyota Motor North America, Ann Arbor, MI \\
+\textit{Research and Development Co-op}, under Paul Schmalenberg, MSc
+\vspace{1mm}
+\begin{itemize}
+    \item Developed methods for sensor fusion \& anomaly detection on biosignals
+    \vspace{-1mm}
+    \item Created machine learning models for contactless heart rate estimation
+    \vspace{-1mm}
+    \item Coordinated machine learning software for physics-informed AI applications
+\end{itemize}
+%\vspace{-2mm}
+\par
+\cvheading{Computer Vision, Speech \& Signal Processing Lab}{07/2019 - 07/2021}
+National Technical University of Athens, Greece \\
+\textit{Undergraduate Research Assistant}, under Prof. Petros Maragos
+\vspace{1mm}
+\begin{itemize}
+    \item Conducted Research in Musical Instrument Recognition \\ Co-authored 2 publications, completed my MEng Diploma Thesis
+\end{itemize}
+
+
+\section{SKILLS}
+
+\textbf{Tools and Libraries}: Python, \LaTeX, Git, Jupyter, PyTorch, Pandas, Scipy, Librosa, PyDub, scikit-learn, scikit-image, OpenCV, Transformers, Neurokit2, MNE-Python \vspace{2mm} \\
+\textbf{Service}: IEEE (Graduate Student Membership, Reviewer: ICASSP,\, ISBI,\, IJCNN,\, WASPAA, J-BHI, TBME), ACM (Student Membership, Reviewer: TOMM, MM), Nature (Reviewer: Biomedical Engineering, npj Digital Medicine) \vspace{2mm} \\
+\textbf{Languages}: Greek (native), English (proficient), German (intermediate)
+
+
+\section{MENTORSHIP}
+
+\begin{itemize}[leftmargin=*]
+    \item \cvheading{Andreas Peter Juhl Hansen}{2025-2026}
+    Mathematical Engineering \textperiodcentered{} Aalborg University
+    \item \cvheading{Jeppe Roden Münster}{2025-2026}
+    Mathematical Engineering \textperiodcentered{} Aalborg University \\
+    After: PhD \textperiodcentered{} Aalborg University
+    \item \cvheading{Simon Bock Segaard}{2025-2026}
+    Mathematical Engineering \textperiodcentered{} Aalborg University
+    \item \cvheading{Eileen Yang}{2025-2026}
+    Linguistics \textperiodcentered{} USC
+    \item \cvheading{Ioanna Chourdaki}{2024-2025}
+    Electrical Engineering \textperiodcentered{} NTUA \\
+    After: PhD Student \textperiodcentered{} USC SAIL
+    \item \cvheading{Angelly Cabrera}{2023-2024}
+    Electrical Engineering \textperiodcentered{} USC \\
+    After: Assoc. Researcher \textperiodcentered{} NIST
+    \item \cvheading{Kranti Adsul}{2023}
+    Electrical Engineering \textperiodcentered{} USC
+    \item \cvheading{Shanti Stewart}{2022}
+    ML \& Data Science \textperiodcentered{} USC \\
+    After: PhD Student \textperiodcentered{} QMUL
+\end{itemize}
+
+\Needspace{5\baselineskip}
+\section{HONORS \\ AWARDS}
+
+\begin{itemize}[leftmargin=*]
+    \item[\ding{73}] \cvheading{USC Center for Music, Brain, and Society Pilot Grant}{06/2025} to investigate neural entrainment to music in expert and novice musicians
+    \item[\ding{73}] \cvheading{USC ECE Research Festival - Outstanding Poster Award}{11/2024}
+    \item[\ding{73}] \cvheading{USC GSG Professional Development Fund}{05/2024} Travel award towards attending IEEE EMBC 2024
+    \item[\ding{73}] \cvheading{IEEE EMBC NextGen Scholar Award}{04/2024} Grant towards conference registration at IEEE EMBC 2024
+    \item[\ding{73}] \cvheading{Gerondelis Foundation Scholarship}{06/2023}
+    \item[\ding{73}] \cvheading{Best Poster Award: 48th AAPOS Annual Meeting}{05/2023} Artificial Intelligence to Classify Fundus Photographs of Pediatric Pseudopapilledema and Papilledema
+    \item[\ding{73}] \cvheading{Future Vision Forum Award}{10/2022} Acceptance and grant to participate with a poster presentation at \\ invitation-only Symposium of Human-Centric Computing in Ophthalmology
+    \item[\ding{73}] \cvheading{Oxford Summer School in Machine Learning 2022}{08/2022} Accepted to participate at the Machine Learning for Healthcare track
+    \item[\ding{73}] \cvheading{Second Prize @ NEUROHACK 2022}{01/2022} Award for a Machine Learning model predicting Dementia
+    \item[\ding{73}] \cvheading{Computer Science PhD Fellowship}{08/2021} University of Southern California
+    \item[\ding{73}] \cvheading{A Great Moment for Education}{01/2016} Award and Grant from Eurobank EFG for the highest \\ University Entrance Examination Score of my High School
+\end{itemize}
+
+\section{TALKS \\ EVENTS}
+
+\begin{enumerate}[leftmargin=*,itemsep=2pt]
+    \item \textbf{CuttingEEG Local Garden Symposium} \\ Talk: ``Scaling Psychiatric Biomarkers in Context and Time'' \\ \textit{September 2026, San Diego, CA}
+    \item \textbf{Apple Workshop on Machine Learning for Health} \\ Poster: ``Scaling Representation Learning from Ubiquitous ECG with SSMs'' \\ \textit{October 2025, Cupertino, CA}
+    \item \textbf{Chair of Health Informatics, Technical University of Munich} \\ Talk: ``Biobehavioral Signal Processing for Mental Health Understanding'' \\ \textit{June 2025, Munich, Germany}
+    \item \textbf{Mapping Brain-Body-Behavior Signal Dynamics} \\ Event: Satellite Workshop at ICASSP 2025 (Student Volunteer) \\ \textit{April 2025, Hyderabad, India}
+    \item \textbf{Society for Affective Science Annual Conference (SAS 2023)} \\ Talk: ``Psychophysiology Sensing via Wearables to model Family Well-being'' \\ \textit{March 2023, Long Beach, CA}
+    \item \textbf{2022 Future Vision Forum: Human-Centric Computing} \\
+    Poster: ``Deep Learning Modeling for Papilledema Diagnosis'' \\ \textit{November 2022, Los Angeles, CA}
+    \item \textbf{International Society for Research on Emotion (ISRE 2022)}\\ Poster: ``Context-aware Representations of Affect in Media from Music \\ and Visual Streams: A Self-supervised Approach'' \\ \textit{July 2022, Los Angeles, CA}
+\end{enumerate}
+
+\Needspace{7\baselineskip}
+\section{TEACHING}
+\begin{minipage}[t]{\linewidth}
+
+\begin{enumerate}[leftmargin=*]
+    \item \cvheading{CSCI 698: Practicum in Teaching Computer Science}{Fall 2026}
+    University of Southern California (Teaching Assistant)
+    \item \cvheading{CSCI 467: Foundations of Machine Learning}{Spring 2026}
+    University of Southern California (Teaching Assistant)
+\end{enumerate}
+\end{minipage}
+
+\clearpage
+\section{SELECTED \\ PUBLICATIONS}
+
+\fontsize{9.8}{11.5}\selectfont
+\begin{enumerate}[leftmargin=*,itemsep=3pt]
+\raggedright
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Ivan Tashev, Dimitra Emmanouilidou \\
+    ``BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes''. \\
+    \textit{arXiv preprint arXiv:2610.29320}, 2026. \ \href{https://arxiv.org/abs/2610.29320}{Paper}\enspace \href{https://github.com/microsoft/BrainCodes}{Code}\enspace \href{https://microsoft.github.io/BrainCodes/}{Website}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Ivan Tashev, Dimitra Emmanouilidou \\
+    ``Probing Spatial and Spectral Grounding in EEG Foundation Models''. \\
+    \textit{arXiv preprint arXiv:2610.29367}, 2026. \ \href{https://arxiv.org/abs/2610.29367}{Paper}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    Aditya Kommineni, Emily Zhou, \textbf{Kleanthis Avramidis}, Tiantian Feng, Shrikanth Narayanan \\
+    ``A Multi-Dimensional Framework for Evaluating Generalization in EEG Foundation Models''. \\
+    \textit{Conference on Health, Inference, and Learning (CHIL)}, 2026. \ \href{https://arxiv.org/abs/2605.28563}{Paper}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    Aditya Kommineni, Emily Zhou, \textbf{Kleanthis Avramidis}, Simon Bock Segaard, Jeppe Roden Münster, Andreas Peter Juhl Hansen, Takfarinas Medani, Tiantian Feng, Richard Leahy, Shrikanth Narayanan \\
+    ``Aperiodic and Low-Frequency Spectral Bias in Reconstruction-Based EEG Foundation Models''. \\
+    \textit{arXiv preprint arXiv:2605.26434}, 2026. \ \href{https://arxiv.org/abs/2605.26434}{Paper}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    Marcus Ma, Jordan Prescott, Emily Zhou, Tiantian Feng, \textbf{Kleanthis Avramidis}, Gabor Mihaly Toth, Shrikanth Narayanan \\
+    ``Encoding Emotion Through Self-Supervised Eye Movement Reconstruction''. \\
+    \textit{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 2026. \ \href{https://ieeexplore.ieee.org/abstract/document/11463336/}{Paper}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Myzelle Hughes, Idan A Blank, Dani Byrd, Assal Habibi, Takfarinas Medani, Richard M Leahy, Shrikanth Narayanan \\
+    ``A Point Process Model of Skin Conductance Responses in a Stroop Task for Predicting Depression and Suicidal Ideation''. \\
+    \textit{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 2026. \ \href{https://ieeexplore.ieee.org/abstract/document/11460710/}{Paper}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Woojae Jeong, Aditya Kommineni, Sudarsana R Kadiri, Marcus Ma, Colin McDaniel, Myzelle Hughes, Thomas McGee, Elsi Kaiser, Dani Byrd, Assal Habibi, B Rael Cahn, Idan A Blank, Kristina Lerman, Takfarinas Medani, Richard M Leahy, Shrikanth Narayanan \\
+    ``Deep Learning Characterizes Depression and Suicidal Ideation in Young Adults From Eye Movements''. \\
+    \textit{npj Digital Medicine}, 2026. \ \href{https://www.nature.com/articles/s41746-026-02550-4}{Paper}\enspace \href{https://github.com/usc-sail/precog-eye-dl}{Code}
+\end{minipage}
+
+\newpage
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    Kate Matsunaga, \textbf{Kleanthis Avramidis}, Mark S Borchert, Shrikanth Narayanan, Melinda Y Chang \\
+    ``Generative Artificial Intelligence (AI)-Enabled Saliency Analysis of Eye Tracking in Cerebral/Cortical Visual Impairment (SET-CVI)''. \\
+    \textit{Ophthalmology Science}, 2026. \ \href{https://www.sciencedirect.com/science/article/pii/S2666914526000199}{Paper}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Tiantian Feng, Woojae Jeong, Jihwan Lee, Wenhui Cui, Richard M Leahy, Shrikanth Narayanan \\
+    ``Neural Codecs as Biosignal Tokenizers''. \\
+    \textit{arXiv preprint arXiv:2510.09095}, 2025. \ \href{https://arxiv.org/abs/2510.09095}{Paper}\enspace \href{https://github.com/klean2050/BioCodec-release}{Code}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    Adela C Timmons, Abdullah Aman Tutul, \textbf{Kleanthis Avramidis}, Jacqueline B Duong, Kayla E Carta, Sierra N Walters, Grace A Jumonville, Alyssa S Carrasco, Gabrielle F Freitag, Daniela N Romero, Matthew W Ahle, Jonathan S Comer, Shrikanth S Narayanan, Ishita P Khurd, Theodora Chaspari \\
+    ``Developing Personalized Algorithms for Sensing Mental Health Symptoms in Daily Life''. \\
+    \textit{npj Mental Health Research}, 2025. \ \href{https://www.nature.com/articles/s44184-025-00147-5}{Paper}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Emily Zhou, Tiantian Feng, Hossein Hamidi Shishavan, Frederico Marcolino Quintao Severgnini, Danny J Lohan, Paul Schmalenberg, Ercan M Dede, Shrikanth Narayanan \\
+    ``Estimating Markers of Driving Stress Through Multimodal Physiological Monitoring''. \\
+    \textit{arXiv preprint arXiv:2507.14146}, 2025. \ \href{https://arxiv.org/abs/2507.14146}{Paper}\enspace \href{https://github.com/usc-sail/driving-stressors}{Code}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    Myzelle Hughes, Colin McDaniel, Takfarinas Medani, Woojae Jeong, Idan Blank, Dani Byrd, Thomas McGee, \textbf{Kleanthis Avramidis}, Sudarsana Kadiri, Chinmay Chinara, Kristina Lerman, Elsi Kaiser, Richard Leahy, Shrikanth Narayanan, Baruch Rael Cahn \\
+    ``PRECOG: Comprehensive Experimental Design and Stimuli Protocol for Investigating Depression and Suicidal Ideation''. \\
+    \textit{Open Science Framework}, 2025. \ \href{https://osf.io/preprints/osf/nxvz5\_v1}{Paper}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    Aditya Kommineni, \textbf{Kleanthis Avramidis}, Richard Leahy, Shrikanth Narayanan \\
+    ``Knowledge-Guided EEG Representation Learning''. \\
+    \textit{IEEE Engineering in Medicine and Biology Society Conference (EMBC)}, 2024. \ \href{https://ieeexplore.ieee.org/abstract/document/10782310/}{Paper}\enspace \href{https://github.com/Uncertain-Quark/s4\_eeg}{Code}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Melinda Y Chang, Rahul Sharma, Mark S Borchert, Shrikanth Narayanan \\
+    ``Evaluating Atypical Gaze Patterns Through Vision Models: The Case of Cortical Visual Impairment''. \\
+    \textit{IEEE Engineering in Medicine and Biology Society Conference (EMBC)}, 2024. \ \href{https://ieeexplore.ieee.org/abstract/document/10782199/}{Paper}\enspace \href{https://github.com/klean2050/cvi-eye-tracking}{Code}
+\end{minipage}
+
+\newpage
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Dominika Kunc, Bartosz Perz, Kranti Adsul, Tiantian Feng, Przemys\l{}aw Kazienko, Stanis\l{}aw Saganowski, Shrikanth Narayanan \\
+    ``Scaling Representation Learning From Ubiquitous ECG With State-Space Models''. \\
+    \textit{IEEE Journal of Biomedical and Health Informatics}, 2024. \ \href{https://ieeexplore.ieee.org/abstract/document/10574308/}{Paper}\enspace \href{https://github.com/klean2050/tiles\_ecg\_model}{Code}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Shanti Stewart, Shrikanth Narayanan \\
+    ``On the Role of Visual Context in Enriching Music Representations''. \\
+    \textit{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 2023. \ \href{https://ieeexplore.ieee.org/abstract/document/10094915/}{Paper}\enspace \href{https://github.com/klean2050/VCMR}{Code}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Tiantian Feng, Digbalay Bose, Shrikanth Narayanan \\
+    ``Multimodal Estimation of Change Points of Physiological Arousal During Driving''. \\
+    \textit{IEEE International Conference on Acoustics, Speech and Signal Processing Workshops (ICASSPW)}, 2023. \ \href{https://ieeexplore.ieee.org/abstract/document/10193718/}{Paper}\enspace \href{https://github.com/usc-sail/ggs\_driving}{Code}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Kranti Adsul, Digbalay Bose, Shrikanth Narayanan \\
+    ``Signal Processing Grand Challenge 2023-E-Prevention: Sleep Behavior as an Indicator of Relapses in Psychotic Patients''. \\
+    \textit{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 2023. \ \href{https://ieeexplore.ieee.org/abstract/document/10096044/}{Paper}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Mohammad Rostami, Melinda Chang, Shrikanth Narayanan \\
+    ``Automating Detection of Papilledema in Pediatric Fundus Images With Explainable Machine Learning''. \\
+    \textit{IEEE International Conference on Image Processing (ICIP)}, 2022. \ \href{https://ieeexplore.ieee.org/abstract/document/9897529/}{Paper}\enspace \href{https://github.com/klean2050/papilledema}{Code}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Christos Garoufis, Athanasia Zlatintsi, Petros Maragos \\
+    ``Enhancing Affective Representations of Music-Induced EEG Through Multimodal Supervision and Latent Domain Adaptation''. \\
+    \textit{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 2022. \ \href{https://ieeexplore.ieee.org/abstract/document/9746643/}{Paper}\enspace \href{https://github.com/klean2050/EEG\_CrossModal}{Code}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    \textbf{Kleanthis Avramidis}, Athanasia Zlatintsi, Christos Garoufis, Petros Maragos \\
+    ``Multiscale Fractal Analysis on EEG Signals for Music-Induced Emotion Recognition''. \\
+    \textit{European Signal Processing Conference (EUSIPCO)}, 2021. \ \href{https://ieeexplore.ieee.org/abstract/document/9616140/}{Paper}
+\end{minipage}
+
+\item \begin{minipage}[t]{\linewidth}\raggedright
+    Agelos Kratimenos, \textbf{Kleanthis Avramidis}, Christos Garoufis, Athanasia Zlatintsi, Petros Maragos \\
+    ``Augmentation Methods on Monophonic Audio for Instrument Classification in Polyphonic Music''. \\
+    \textit{European Signal Processing Conference (EUSIPCO)}, 2021. \ \href{https://ieeexplore.ieee.org/abstract/document/9287745/}{Paper}\enspace \href{https://github.com/klean2050/IC\_Augment}{Code}
+\end{minipage}
+\end{enumerate}
+
+\end{resume}
+\end{document}

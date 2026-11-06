@@ -1,0 +1,475 @@
+{
+  "name": "Kleanthis Avramidis",
+  "address": "3710 McClintock Ave., RTH 318, Los Angeles, CA 90089, United States",
+  "email": "avramidi@usc.edu",
+  "website": "https://klean2050.github.io/",
+  "research_interests": [
+    "Learning transferable biosignal representations",
+    "Understanding multimodal dynamics of behavior",
+    "Improving health outcomes and clinical translation"
+  ],
+  "education": [
+    {
+      "title": "PhD in Computer Science",
+      "date": "08/2021 - Present",
+      "institution": "University of Southern California, Los Angeles, CA",
+      "role": "",
+      "details": [
+        "Advisor: Prof. Shrikanth Narayanan",
+        "GPA: 3.83/4; projected graduation: Fall 2026"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Joint BSc & MEng in Electrical Engineering",
+      "date": "10/2015 - 07/2021",
+      "institution": "National Technical University of Athens, Greece",
+      "role": "",
+      "details": [
+        "Advisor: Prof. Petros Maragos",
+        "GPA: 8.40/10 (top 12%); specialization GPA: 9.14/10"
+      ],
+      "bullets": []
+    }
+  ],
+  "experience": [
+    {
+      "title": "Signal Analysis and Interpretation Lab",
+      "date": "08/2021 - Present",
+      "institution": "University of Southern California, Los Angeles, CA",
+      "role": "Graduate Research Assistant; advisor: Prof. Shrikanth Narayanan",
+      "details": [],
+      "bullets": [
+        "Develop machine learning methods for physiological and behavioral signals, with applications in representation learning and health assessment.",
+        "Coordinate project meetings and mentor students in interdisciplinary research."
+      ]
+    },
+    {
+      "title": "Audio & Acoustics Research Group",
+      "date": "05/2026 - 08/2026",
+      "institution": "Microsoft Corporation, Redmond, WA",
+      "role": "Research Intern; mentor: Dimitra Emmanouilidou, PhD",
+      "details": [],
+      "bullets": [
+        "Developed BrainCodes, a lightweight EEG foundation model over discrete neural codes.",
+        "Designed spatial and spectral probes to examine the physiological grounding of EEG foundation models."
+      ]
+    },
+    {
+      "title": "Chair of Health Informatics",
+      "date": "05/2025 - 06/2025",
+      "institution": "Technical University of Munich, Germany",
+      "role": "Visiting Doctoral Researcher; host: Prof. Björn Schuller",
+      "details": [],
+      "bullets": [
+        "Contributed to silent-paralinguistics research, including study design and analysis of surface electromyography during speech production."
+      ]
+    },
+    {
+      "title": "Meta Reality Labs",
+      "date": "05/2024 - 08/2024",
+      "institution": "Meta Platforms Inc., New York City, NY",
+      "role": "Research Scientist Intern; mentor: Nariman Farsad, PhD",
+      "details": [],
+      "bullets": [
+        "Developed machine learning methods for decoding neuromotor signals and advancing augmented reality experiences."
+      ]
+    },
+    {
+      "title": "Toyota Research Institute of North America",
+      "date": "05/2023 - 08/2023",
+      "institution": "Toyota Motor North America, Ann Arbor, MI",
+      "role": "Research and Development Co-op; mentor: Paul Schmalenberg, MSc",
+      "details": [],
+      "bullets": [
+        "Developed sensor-fusion and anomaly-detection methods for biosignals and models for contactless heart-rate estimation.",
+        "Coordinated machine learning software for physics-informed AI applications."
+      ]
+    },
+    {
+      "title": "Computer Vision, Speech & Signal Processing Lab",
+      "date": "07/2019 - 07/2021",
+      "institution": "National Technical University of Athens, Greece",
+      "role": "Undergraduate Research Assistant; advisor: Prof. Petros Maragos",
+      "details": [],
+      "bullets": [
+        "Conducted research in musical instrument recognition and completed an MEng diploma thesis on affective EEG analysis."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Entrainment in Expert and Novice Musicians",
+      "date": "07/2025 - Present",
+      "institution": "USC Center for Music, Brain, and Society",
+      "role": "",
+      "details": [],
+      "bullets": [
+        "Quantify neurophysiological entrainment to music and examine differences in attention, emotional responses and musical elements."
+      ]
+    },
+    {
+      "title": "Speech Paralinguistics From Facial Muscle Activity",
+      "date": "09/2024 - Present",
+      "institution": "USC - Technical University of Munich",
+      "role": "",
+      "details": [],
+      "bullets": [
+        "Develop models relating EMG activity to speech, and examine temporal dynamics and affective elements in vocal and silent articulation."
+      ]
+    },
+    {
+      "title": "Wearable Sensing of Workplace Stress",
+      "date": "09/2023 - Present",
+      "institution": "USC Occupational Therapy - Engineering; NSF SCH",
+      "role": "",
+      "details": [],
+      "bullets": [
+        "Coordinate longitudinal biobehavioral sensing and develop personalized methods for assessing stress."
+      ]
+    },
+    {
+      "title": "PRECOG: Neural and Biobehavioral Responses",
+      "date": "05/2023 - 08/2025",
+      "institution": "USC - UCLA",
+      "role": "",
+      "details": [],
+      "bullets": [
+        "Contributed to experimental design, multimodal alignment and computational analysis of EEG, ECG, electrodermal activity and eye tracking.",
+        "Developed representation-learning and response-timing models to study depression and suicidal ideation."
+      ]
+    },
+    {
+      "title": "Sensor Fusion for Affective State Detection in Driving",
+      "date": "05/2022 - 06/2025",
+      "institution": "USC - Toyota Research Institute NA - MIRISE",
+      "role": "",
+      "details": [],
+      "bullets": [
+        "Developed self-supervised and multimodal methods for physiological monitoring, including change-point detection and responses to driving stressors.",
+        "Coordinated data collection in simulated driving settings."
+      ]
+    },
+    {
+      "title": "CVI Evaluation Through Eye Tracking",
+      "date": "02/2022 - 06/2024",
+      "institution": "USC - Children's Hospital Los Angeles",
+      "role": "",
+      "details": [],
+      "bullets": [
+        "Used visual saliency and gaze measurements to assess differences between children with cerebral/cortical visual impairment and controls."
+      ]
+    },
+    {
+      "title": "Automatic Differentiation of Pediatric Papilledema",
+      "date": "02/2022 - 08/2023",
+      "institution": "USC - Children's Hospital Los Angeles - external sites",
+      "role": "",
+      "details": [],
+      "bullets": [
+        "Built explainable deep learning models to differentiate papilledema and pseudopapilledema in pediatric fundus photographs collected across sites."
+      ]
+    },
+    {
+      "title": "Wearable Sensing for Family Well-being",
+      "date": "10/2021 - 08/2023",
+      "institution": "UT Austin - Texas A&M - USC",
+      "role": "",
+      "details": [],
+      "bullets": [
+        "Processed multimodal wearable data and developed statistical and learning methods for family-reported well-being and conflict in collaboration with psychology researchers."
+      ]
+    },
+    {
+      "title": "Diploma Thesis",
+      "date": "05/2020 - 07/2021",
+      "institution": "National Technical University of Athens",
+      "role": "",
+      "details": [
+        "Affective Analysis and Interpretation of Brain Responses to Music Stimuli"
+      ],
+      "bullets": [
+        "Applied multiscale fractal analysis to music-induced EEG and developed multimodal audio-EEG models using adversarial and contrastive objectives."
+      ]
+    }
+  ],
+  "teaching": [
+    {
+      "title": "CSCI 698: Practicum in Teaching Computer Science",
+      "date": "Fall 2026",
+      "institution": "University of Southern California",
+      "role": "Teaching Assistant",
+      "details": [],
+      "bullets": []
+    },
+    {
+      "title": "CSCI 467: Foundations of Machine Learning",
+      "date": "Spring 2026",
+      "institution": "University of Southern California",
+      "role": "Teaching Assistant",
+      "details": [],
+      "bullets": []
+    }
+  ],
+  "mentoring": [
+    {
+      "title": "Andreas Peter Juhl Hansen",
+      "date": "2025–2026",
+      "institution": "Mathematical Engineering · Aalborg University",
+      "role": "",
+      "details": [],
+      "bullets": []
+    },
+    {
+      "title": "Jeppe Roden Münster",
+      "date": "2025–2026",
+      "institution": "Mathematical Engineering · Aalborg University",
+      "role": "",
+      "details": [
+        "After: PhD · Aalborg University"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Simon Bock Segaard",
+      "date": "2025–2026",
+      "institution": "Mathematical Engineering · Aalborg University",
+      "role": "",
+      "details": [],
+      "bullets": []
+    },
+    {
+      "title": "Eileen Yang",
+      "date": "2025–2026",
+      "institution": "Linguistics · USC",
+      "role": "",
+      "details": [],
+      "bullets": []
+    },
+    {
+      "title": "Ioanna Chourdaki",
+      "date": "2024–2025",
+      "institution": "Electrical Engineering · NTUA",
+      "role": "",
+      "details": [
+        "After: PhD Student · USC SAIL"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Angelly Cabrera",
+      "date": "2023–2024",
+      "institution": "Electrical Engineering · USC",
+      "role": "",
+      "details": [
+        "After: Assoc. Researcher · NIST"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Kranti Adsul",
+      "date": "2023",
+      "institution": "Electrical Engineering · USC",
+      "role": "",
+      "details": [],
+      "bullets": []
+    },
+    {
+      "title": "Shanti Stewart",
+      "date": "2022",
+      "institution": "ML & Data Science · USC",
+      "role": "",
+      "details": [
+        "After: PhD Student · QMUL"
+      ],
+      "bullets": []
+    }
+  ],
+  "honors": [
+    {
+      "title": "USC Center for Music, Brain, and Society Pilot Grant",
+      "date": "06/2025",
+      "institution": "",
+      "role": "",
+      "details": [
+        "Neural entrainment to music in expert and novice musicians."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "USC ECE Research Festival - Outstanding Poster Award",
+      "date": "11/2024",
+      "institution": "",
+      "role": "",
+      "details": [],
+      "bullets": []
+    },
+    {
+      "title": "USC GSG Professional Development Fund",
+      "date": "05/2024",
+      "institution": "",
+      "role": "",
+      "details": [
+        "Travel award for IEEE EMBC 2024."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "IEEE EMBC NextGen Scholar Award",
+      "date": "04/2024",
+      "institution": "",
+      "role": "",
+      "details": [],
+      "bullets": []
+    },
+    {
+      "title": "Gerondelis Foundation Scholarship",
+      "date": "06/2023",
+      "institution": "",
+      "role": "",
+      "details": [],
+      "bullets": []
+    },
+    {
+      "title": "Best Poster Award - 48th AAPOS Annual Meeting",
+      "date": "05/2023",
+      "institution": "",
+      "role": "",
+      "details": [
+        "Artificial Intelligence to Classify Fundus Photographs of Pediatric Pseudopapilledema and Papilledema."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Future Vision Forum Award",
+      "date": "10/2022",
+      "institution": "",
+      "role": "",
+      "details": [
+        "Participation and poster-presentation grant."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Oxford Summer School in Machine Learning",
+      "date": "08/2022",
+      "institution": "",
+      "role": "",
+      "details": [
+        "Selected for the Machine Learning for Healthcare track."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Second Prize - NEUROHACK",
+      "date": "01/2022",
+      "institution": "",
+      "role": "",
+      "details": [
+        "Machine learning for dementia prediction."
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Computer Science PhD Fellowship",
+      "date": "08/2021",
+      "institution": "University of Southern California",
+      "role": "",
+      "details": [],
+      "bullets": []
+    },
+    {
+      "title": "A Great Moment for Education",
+      "date": "01/2016",
+      "institution": "Eurobank EFG",
+      "role": "",
+      "details": [
+        "Award and grant for the highest university entrance examination score at my high school."
+      ],
+      "bullets": []
+    }
+  ],
+  "talks": [
+    {
+      "title": "CuttingEEG Local Garden Symposium",
+      "date": "09/2026",
+      "institution": "San Diego, CA",
+      "role": "Talk",
+      "details": [
+        "Scaling Psychiatric Biomarkers in Context and Time"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Apple Workshop on Machine Learning for Health",
+      "date": "10/2025",
+      "institution": "Cupertino, CA",
+      "role": "Poster",
+      "details": [
+        "Scaling Representation Learning From Ubiquitous ECG With SSMs"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Chair of Health Informatics, Technical University of Munich",
+      "date": "06/2025",
+      "institution": "Munich, Germany",
+      "role": "Talk",
+      "details": [
+        "Biobehavioral Signal Processing for Mental Health Understanding"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Mapping Brain-Body-Behavior Signal Dynamics",
+      "date": "04/2025",
+      "institution": "Satellite workshop at ICASSP, Hyderabad, India",
+      "role": "Student Volunteer",
+      "details": [],
+      "bullets": []
+    },
+    {
+      "title": "Society for Affective Science Annual Conference",
+      "date": "03/2023",
+      "institution": "Long Beach, CA",
+      "role": "Talk",
+      "details": [
+        "Psychophysiology Sensing via Wearables to Model Family Well-being"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "Future Vision Forum: Human-Centric Computing",
+      "date": "11/2022",
+      "institution": "Los Angeles, CA",
+      "role": "Poster",
+      "details": [
+        "Deep Learning Modeling for Papilledema Diagnosis"
+      ],
+      "bullets": []
+    },
+    {
+      "title": "International Society for Research on Emotion",
+      "date": "07/2022",
+      "institution": "Los Angeles, CA",
+      "role": "Poster",
+      "details": [
+        "Context-aware Representations of Affect in Media From Music and Visual Streams: A Self-supervised Approach"
+      ],
+      "bullets": []
+    }
+  ],
+  "service": {
+    "reviewer": "IEEE ICASSP, ISBI, IJCNN, WASPAA, Journal of Biomedical and Health Informatics, and Transactions on Biomedical Engineering; ACM Transactions on Multimedia Computing, Communications, and Applications and ACM Multimedia; Nature Biomedical Engineering and npj Digital Medicine.",
+    "memberships": "IEEE Graduate Student Member; ACM Student Member.",
+    "volunteering": "ISRE 2022; ICASSP 2025 satellite workshop on brain-body-behavior signal dynamics."
+  },
+  "skills": {
+    "tools": "Python, LaTeX, Git, Jupyter, PyTorch, Pandas, SciPy, librosa, PyDub, scikit-learn, scikit-image, OpenCV, Transformers, NeuroKit2 and MNE-Python.",
+    "languages": "Greek (native), English (proficient), German (intermediate)."
+  },
+  "source_notes": {
+    "base": "User-supplied Avramidis_CV_Fall26.pdf, September 30, 2026 edition.",
+    "changes": "Research framing and Microsoft work supplemented from Research_Statement_Base.pdf and the confirmed paper records. Mentoring years, programs and destinations follow the user-confirmed Teaching page and override older CV dates. Selected publications follow the website portfolio, including explicit exclusions. CSCI 467 uses the latest source CV title, Foundations of Machine Learning. Existing project dates and graduation projection retained without assuming completion."
+  }
+}

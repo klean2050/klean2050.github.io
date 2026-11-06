@@ -1,0 +1,75 @@
+name: Sync CV from Overleaf
+
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: overleaf-cv-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    # Remains inactive until the owner completes the documented setup.
+    if: vars.OVERLEAF_CV_SYNC_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      CV_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Fetch the Overleaf CV
+        id: fetch
+        env:
+          OVERLEAF_GIT_TOKEN: ${{ secrets.OVERLEAF_GIT_TOKEN }}
+        run: |
+          if [ -z "$OVERLEAF_GIT_TOKEN" ]; then
+            echo 'Add the OVERLEAF_GIT_TOKEN repository secret before enabling CV sync.' >&2
+            exit 1
+          fi
+          python3 scripts/sync_cv_from_overleaf.py fetch --source-dir "$RUNNER_TEMP/overleaf-cv"
+
+      - name: Install the CV compiler
+        if: steps.fetch.outputs.changed == 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends texlive-latex-extra texlive-fonts-extra latexmk
+          python3 -m pip install 'pypdf>=5,<7'
+
+      - name: Compile and validate the current CV
+        if: steps.fetch.outputs.changed == 'true'
+        run: python3 scripts/sync_cv_from_overleaf.py build --source-dir "$RUNNER_TEMP/overleaf-cv" --engine latexmk
+
+      - name: Check website references
+        run: python3 scripts/check.py
+
+      - name: Save the refreshed PDF
+        if: steps.fetch.outputs.changed == 'true'
+        run: |
+          git add -- assets/Kleanthis-Avramidis-CV.pdf cv/overleaf-state.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Update CV from Overleaf'
+            git push origin "HEAD:$CV_BRANCH"
+          fi
+
+      # GITHUB_TOKEN commits do not trigger another workflow/Pages build.
+      # Explicitly request publication, and retry a pending/failed publication
+      # even if the Overleaf source itself has not changed since the last run.
+      - name: Publish the latest CV through GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/request_pages_build.py

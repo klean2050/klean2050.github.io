@@ -1,0 +1,656 @@
+{
+  "checked": "2026-11-04",
+  "scholar_records_checked": 49,
+  "selection": "First- and co-first-author papers and collaborations closely aligned with biosignal representations, multimodal behavior, and clinical translation, with the user’s explicit exclusions applied.",
+  "entries": [
+    {
+      "key": "avramidis2026braincodes",
+      "title": "BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes",
+      "source_title": "BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes",
+      "author": "Kleanthis Avramidis and Ivan Tashev and Dimitra Emmanouilidou",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Ivan Tashev",
+        "Dimitra Emmanouilidou"
+      ],
+      "year": "2026",
+      "date": "2026/10/21",
+      "journal": "arXiv preprint arXiv:2610.29320",
+      "html": "https://arxiv.org/abs/2610.29320",
+      "pdf": "https://arxiv.org/pdf/2610.29320",
+      "code": "https://github.com/microsoft/BrainCodes",
+      "website": "https://microsoft.github.io/BrainCodes/",
+      "raw": "@misc{avramidis2026braincodes,\n  title={BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes},\n  author={Kleanthis Avramidis and Ivan Tashev and Dimitra Emmanouilidou},\n  year={2026},\n  eprint={2610.29320},\n  archivePrefix={arXiv},\n  url={https://arxiv.org/abs/2610.29320}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "First-author work on efficient and physiologically grounded EEG representations.",
+      "sources": [
+        "https://arxiv.org/abs/2610.29320",
+        "https://github.com/microsoft/BrainCodes",
+        "https://microsoft.github.io/BrainCodes/"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "key": "avramidis2026grounding",
+      "title": "Probing Spatial and Spectral Grounding in EEG Foundation Models",
+      "source_title": "Probing Spatial and Spectral Grounding in EEG Foundation Models",
+      "author": "Kleanthis Avramidis and Ivan Tashev and Dimitra Emmanouilidou",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Ivan Tashev",
+        "Dimitra Emmanouilidou"
+      ],
+      "year": "2026",
+      "date": "2026/10/21",
+      "journal": "arXiv preprint arXiv:2610.29367",
+      "html": "https://arxiv.org/abs/2610.29367",
+      "pdf": "https://arxiv.org/pdf/2610.29367",
+      "code": "",
+      "website": "",
+      "raw": "@misc{avramidis2026grounding,\n  title={Probing Spatial and Spectral Grounding in EEG Foundation Models},\n  author={Kleanthis Avramidis and Ivan Tashev and Dimitra Emmanouilidou},\n  year={2026},\n  eprint={2610.29367},\n  archivePrefix={arXiv},\n  url={https://arxiv.org/abs/2610.29367}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "First-author work on efficient and physiologically grounded EEG representations.",
+      "sources": [
+        "https://arxiv.org/abs/2610.29367"
+      ],
+      "checked": "2026-11-04"
+    },
+    {
+      "key": "a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models",
+      "title": "A Multi-Dimensional Framework for Evaluating Generalization in EEG Foundation Models",
+      "source_title": "A Multi-dimensional Framework for Evaluating Generalization in EEG Foundation Models",
+      "author": "Aditya Kommineni and Emily Zhou and Kleanthis Avramidis and Tiantian Feng and Shrikanth Narayanan",
+      "authors": [
+        "Aditya Kommineni",
+        "Emily Zhou",
+        "Kleanthis Avramidis",
+        "Tiantian Feng",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2026",
+      "date": "2026/5/27",
+      "journal": "Conference on Health, Inference, and Learning (CHIL)",
+      "html": "https://arxiv.org/abs/2605.28563",
+      "pdf": "https://arxiv.org/pdf/2605.28563",
+      "code": "",
+      "raw": "@inproceedings{a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models,\n  title={A Multi-Dimensional Framework for Evaluating Generalization in EEG Foundation Models},\n  author={Aditya Kommineni and Emily Zhou and Kleanthis Avramidis and Tiantian Feng and Shrikanth Narayanan},\n  year={2026},\n  booktitle={Conference on Health, Inference, and Learning (CHIL)},\n  url={https://arxiv.org/abs/2605.28563}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "Generalization of EEG foundation models under realistic constraints.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:TFP_iSt0sucC",
+        "https://arxiv.org/abs/2605.28563"
+      ]
+    },
+    {
+      "key": "aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models",
+      "title": "Aperiodic and Low-Frequency Spectral Bias in Reconstruction-Based EEG Foundation Models",
+      "source_title": "Aperiodic and Low-Frequency Spectral Bias in Reconstruction based EEG Foundation Models",
+      "author": "Aditya Kommineni and Emily Zhou and Kleanthis Avramidis and Simon Bock Segaard and Jeppe Roden Münster and Andreas Peter Juhl Hansen and Takfarinas Medani and Tiantian Feng and Richard Leahy and Shrikanth Narayanan",
+      "authors": [
+        "Aditya Kommineni",
+        "Emily Zhou",
+        "Kleanthis Avramidis",
+        "Simon Bock Segaard",
+        "Jeppe Roden Münster",
+        "Andreas Peter Juhl Hansen",
+        "Takfarinas Medani",
+        "Tiantian Feng",
+        "Richard Leahy",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2026",
+      "date": "2026/5/26",
+      "journal": "arXiv preprint arXiv:2605.26434",
+      "html": "https://arxiv.org/abs/2605.26434",
+      "pdf": "https://arxiv.org/pdf/2605.26434",
+      "code": "",
+      "raw": "@article{aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models,\n  title={Aperiodic and Low-Frequency Spectral Bias in Reconstruction-Based EEG Foundation Models},\n  author={Aditya Kommineni and Emily Zhou and Kleanthis Avramidis and Simon Bock Segaard and Jeppe Roden Münster and Andreas Peter Juhl Hansen and Takfarinas Medani and Tiantian Feng and Richard Leahy and Shrikanth Narayanan},\n  year={2026},\n  journal={arXiv preprint arXiv:2605.26434},\n  url={https://arxiv.org/abs/2605.26434}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "Mechanistic analysis of EEG foundation-model representations.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:isC4tDSrTZIC",
+        "https://arxiv.org/abs/2605.26434"
+      ]
+    },
+    {
+      "key": "encoding-emotion-through-self-supervised-eye-movement-reconstruction",
+      "title": "Encoding Emotion Through Self-Supervised Eye Movement Reconstruction",
+      "source_title": "Encoding Emotion Through Self-Supervised Eye Movement Reconstruction",
+      "author": "Marcus Ma and Jordan Prescott and Emily Zhou and Tiantian Feng and Kleanthis Avramidis and Gabor Mihaly Toth and Shrikanth Narayanan",
+      "authors": [
+        "Marcus Ma",
+        "Jordan Prescott",
+        "Emily Zhou",
+        "Tiantian Feng",
+        "Kleanthis Avramidis",
+        "Gabor Mihaly Toth",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2026",
+      "date": "2026/5/3",
+      "journal": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "html": "https://ieeexplore.ieee.org/abstract/document/11463336/",
+      "pdf": "https://arxiv.org/pdf/2601.12534",
+      "code": "",
+      "raw": "@inproceedings{encoding-emotion-through-self-supervised-eye-movement-reconstruction,\n  title={Encoding Emotion Through Self-Supervised Eye Movement Reconstruction},\n  author={Marcus Ma and Jordan Prescott and Emily Zhou and Tiantian Feng and Kleanthis Avramidis and Gabor Mihaly Toth and Shrikanth Narayanan},\n  year={2026},\n  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n  pages={5316-5320},\n  publisher={IEEE},\n  url={https://ieeexplore.ieee.org/abstract/document/11463336/}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "Self-supervised representation learning for affective eye movements.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:mB3voiENLucC",
+        "https://ieeexplore.ieee.org/abstract/document/11463336/"
+      ]
+    },
+    {
+      "key": "a-point-process-model-of-skin-conductance-responses-in-a-stroop-task-for-predicting-depression-and-suicidal-ideation",
+      "title": "A Point Process Model of Skin Conductance Responses in a Stroop Task for Predicting Depression and Suicidal Ideation",
+      "source_title": "A Point Process Model of Skin Conductance Responses in a Stroop Task for Predicting Depression and Suicidal Ideation",
+      "author": "Kleanthis Avramidis and Myzelle Hughes and Idan A Blank and Dani Byrd and Assal Habibi and Takfarinas Medani and Richard M Leahy and Shrikanth Narayanan",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Myzelle Hughes",
+        "Idan A Blank",
+        "Dani Byrd",
+        "Assal Habibi",
+        "Takfarinas Medani",
+        "Richard M Leahy",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2026",
+      "date": "2026/5/3",
+      "journal": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "html": "https://ieeexplore.ieee.org/abstract/document/11460710/",
+      "pdf": "https://arxiv.org/pdf/2510.00422",
+      "code": "",
+      "raw": "@inproceedings{a-point-process-model-of-skin-conductance-responses-in-a-stroop-task-for-predicting-depression-and-suicidal-ideation,\n  title={A Point Process Model of Skin Conductance Responses in a Stroop Task for Predicting Depression and Suicidal Ideation},\n  author={Kleanthis Avramidis and Myzelle Hughes and Idan A Blank and Dani Byrd and Assal Habibi and Takfarinas Medani and Richard M Leahy and Shrikanth Narayanan},\n  year={2026},\n  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n  pages={7492-7496},\n  publisher={IEEE},\n  url={https://ieeexplore.ieee.org/abstract/document/11460710/}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:L8Ckcad2t8MC",
+        "https://ieeexplore.ieee.org/abstract/document/11460710/"
+      ]
+    },
+    {
+      "key": "avramidis2025deep",
+      "title": "Deep Learning Characterizes Depression and Suicidal Ideation in Young Adults From Eye Movements",
+      "source_title": "Deep Learning Characterizes Depression and Suicidal Ideation in Young Adults from Eye Movements",
+      "author": "Kleanthis Avramidis and Woojae Jeong and Aditya Kommineni and Sudarsana R Kadiri and Marcus Ma and Colin McDaniel and Myzelle Hughes and Thomas McGee and Elsi Kaiser and Dani Byrd and Assal Habibi and B Rael Cahn and Idan A Blank and Kristina Lerman and Takfarinas Medani and Richard M Leahy and Shrikanth Narayanan",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Woojae Jeong",
+        "Aditya Kommineni",
+        "Sudarsana R Kadiri",
+        "Marcus Ma",
+        "Colin McDaniel",
+        "Myzelle Hughes",
+        "Thomas McGee",
+        "Elsi Kaiser",
+        "Dani Byrd",
+        "Assal Habibi",
+        "B Rael Cahn",
+        "Idan A Blank",
+        "Kristina Lerman",
+        "Takfarinas Medani",
+        "Richard M Leahy",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2026",
+      "date": "2026/3/28",
+      "journal": "npj Digital Medicine",
+      "html": "https://www.nature.com/articles/s41746-026-02550-4",
+      "pdf": "https://www.nature.com/articles/s41746-026-02550-4.pdf",
+      "code": "https://github.com/usc-sail/precog-eye-dl",
+      "raw": "@article{avramidis2025deep,\n  title={Deep Learning Characterizes Depression and Suicidal Ideation in Young Adults From Eye Movements},\n  author={Kleanthis Avramidis and Woojae Jeong and Aditya Kommineni and Sudarsana R Kadiri and Marcus Ma and Colin McDaniel and Myzelle Hughes and Thomas McGee and Elsi Kaiser and Dani Byrd and Assal Habibi and B Rael Cahn and Idan A Blank and Kristina Lerman and Takfarinas Medani and Richard M Leahy and Shrikanth Narayanan},\n  year={2026},\n  journal={npj Digital Medicine},\n  publisher={Nature Publishing Group UK},\n  url={https://www.nature.com/articles/s41746-026-02550-4},\n  doi={10.1038/s41746-026-02550-4}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:RHpTSmoSYBkC",
+        "https://www.nature.com/articles/s41746-026-02550-4",
+        "https://github.com/usc-sail/precog-eye-dl"
+      ]
+    },
+    {
+      "key": "generative-artificial-intelligence-ai-enabled-saliency-analysis-of-eye-tracking-in-cerebral-cortical-visual-impairment-set-cvi",
+      "title": "Generative Artificial Intelligence (AI)-Enabled Saliency Analysis of Eye Tracking in Cerebral/Cortical Visual Impairment (SET-CVI)",
+      "source_title": "Generative Artificial Intelligence (AI)-enabled Saliency analysis of Eye Tracking in Cerebral/Cortical Visual Impairment (SET-CVI)",
+      "author": "Kate Matsunaga and Kleanthis Avramidis and Mark S Borchert and Shrikanth Narayanan and Melinda Y Chang",
+      "authors": [
+        "Kate Matsunaga",
+        "Kleanthis Avramidis",
+        "Mark S Borchert",
+        "Shrikanth Narayanan",
+        "Melinda Y Chang"
+      ],
+      "year": "2026",
+      "date": "2026/1/21",
+      "journal": "Ophthalmology Science",
+      "html": "https://www.sciencedirect.com/science/article/pii/S2666914526000199",
+      "pdf": "",
+      "code": "",
+      "raw": "@article{generative-artificial-intelligence-ai-enabled-saliency-analysis-of-eye-tracking-in-cerebral-cortical-visual-impairment-set-cvi,\n  title={Generative Artificial Intelligence (AI)-Enabled Saliency Analysis of Eye Tracking in Cerebral/Cortical Visual Impairment (SET-CVI)},\n  author={Kate Matsunaga and Kleanthis Avramidis and Mark S Borchert and Shrikanth Narayanan and Melinda Y Chang},\n  year={2026},\n  journal={Ophthalmology Science},\n  pages={101081},\n  publisher={Elsevier},\n  url={https://www.sciencedirect.com/science/article/pii/S2666914526000199}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "Quantitative eye-tracking assessment in cortical visual impairment.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:HDshCWvjkbEC",
+        "https://www.sciencedirect.com/science/article/pii/S2666914526000199"
+      ]
+    },
+    {
+      "key": "neural-codecs-as-biosignal-tokenizers",
+      "title": "Neural Codecs as Biosignal Tokenizers",
+      "source_title": "Neural Codecs as Biosignal Tokenizers",
+      "author": "Kleanthis Avramidis and Tiantian Feng and Woojae Jeong and Jihwan Lee and Wenhui Cui and Richard M Leahy and Shrikanth Narayanan",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Tiantian Feng",
+        "Woojae Jeong",
+        "Jihwan Lee",
+        "Wenhui Cui",
+        "Richard M Leahy",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2025",
+      "date": "2025/10/10",
+      "journal": "arXiv preprint arXiv:2510.09095",
+      "html": "https://arxiv.org/abs/2510.09095",
+      "pdf": "https://arxiv.org/pdf/2510.09095",
+      "code": "https://github.com/klean2050/BioCodec-release",
+      "raw": "@article{neural-codecs-as-biosignal-tokenizers,\n  title={Neural Codecs as Biosignal Tokenizers},\n  author={Kleanthis Avramidis and Tiantian Feng and Woojae Jeong and Jihwan Lee and Wenhui Cui and Richard M Leahy and Shrikanth Narayanan},\n  year={2025},\n  journal={arXiv preprint arXiv:2510.09095},\n  url={https://arxiv.org/abs/2510.09095}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:ZeXyd9-uunAC",
+        "https://arxiv.org/abs/2510.09095",
+        "https://github.com/klean2050/BioCodec-release"
+      ]
+    },
+    {
+      "key": "timmons2025developing",
+      "title": "Developing Personalized Algorithms for Sensing Mental Health Symptoms in Daily Life",
+      "source_title": "Developing Personalized Algorithms for Sensing Mental Health Symptoms in Daily Life",
+      "author": "Adela C Timmons and Abdullah Aman Tutul and Kleanthis Avramidis and Jacqueline B Duong and Kayla E Carta and Sierra N Walters and Grace A Jumonville and Alyssa S Carrasco and Gabrielle F Freitag and Daniela N Romero and Matthew W Ahle and Jonathan S Comer and Shrikanth S Narayanan and Ishita P Khurd and Theodora Chaspari",
+      "authors": [
+        "Adela C Timmons",
+        "Abdullah Aman Tutul",
+        "Kleanthis Avramidis",
+        "Jacqueline B Duong",
+        "Kayla E Carta",
+        "Sierra N Walters",
+        "Grace A Jumonville",
+        "Alyssa S Carrasco",
+        "Gabrielle F Freitag",
+        "Daniela N Romero",
+        "Matthew W Ahle",
+        "Jonathan S Comer",
+        "Shrikanth S Narayanan",
+        "Ishita P Khurd",
+        "Theodora Chaspari"
+      ],
+      "year": "2025",
+      "date": "2025/8/6",
+      "journal": "npj Mental Health Research",
+      "html": "https://www.nature.com/articles/s44184-025-00147-5",
+      "pdf": "",
+      "code": "",
+      "raw": "@article{timmons2025developing,\n  title={Developing Personalized Algorithms for Sensing Mental Health Symptoms in Daily Life},\n  author={Adela C Timmons and Abdullah Aman Tutul and Kleanthis Avramidis and Jacqueline B Duong and Kayla E Carta and Sierra N Walters and Grace A Jumonville and Alyssa S Carrasco and Gabrielle F Freitag and Daniela N Romero and Matthew W Ahle and Jonathan S Comer and Shrikanth S Narayanan and Ishita P Khurd and Theodora Chaspari},\n  year={2025},\n  journal={npj Mental Health Research},\n  volume={4},\n  number={1},\n  pages={34},\n  publisher={Nature Publishing Group UK},\n  url={https://www.nature.com/articles/s44184-025-00147-5},\n  doi={10.1038/s44184-025-00147-5}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "Personalized mental-health measures from daily-life sensing.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:dhFuZR0502QC",
+        "https://www.nature.com/articles/s44184-025-00147-5"
+      ]
+    },
+    {
+      "key": "avramidis2025estimating",
+      "title": "Estimating Markers of Driving Stress Through Multimodal Physiological Monitoring",
+      "source_title": "Estimating Markers of Driving Stress through Multimodal Physiological Monitoring",
+      "author": "Kleanthis Avramidis and Emily Zhou and Tiantian Feng and Hossein Hamidi Shishavan and Frederico Marcolino Quintao Severgnini and Danny J Lohan and Paul Schmalenberg and Ercan M Dede and Shrikanth Narayanan",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Emily Zhou",
+        "Tiantian Feng",
+        "Hossein Hamidi Shishavan",
+        "Frederico Marcolino Quintao Severgnini",
+        "Danny J Lohan",
+        "Paul Schmalenberg",
+        "Ercan M Dede",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2025",
+      "date": "2025/7/1",
+      "journal": "arXiv preprint arXiv:2507.14146",
+      "html": "https://arxiv.org/abs/2507.14146",
+      "pdf": "https://arxiv.org/pdf/2507.14146",
+      "code": "https://github.com/usc-sail/driving-stressors",
+      "raw": "@article{avramidis2025estimating,\n  title={Estimating Markers of Driving Stress Through Multimodal Physiological Monitoring},\n  author={Kleanthis Avramidis and Emily Zhou and Tiantian Feng and Hossein Hamidi Shishavan and Frederico Marcolino Quintao Severgnini and Danny J Lohan and Paul Schmalenberg and Ercan M Dede and Shrikanth Narayanan},\n  year={2025},\n  journal={arXiv preprint arXiv:2507.14146},\n  url={https://arxiv.org/abs/2507.14146}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:Wp0gIr-vW9MC",
+        "https://arxiv.org/abs/2507.14146",
+        "https://github.com/usc-sail/driving-stressors"
+      ]
+    },
+    {
+      "key": "hughesprecog",
+      "title": "PRECOG: Comprehensive Experimental Design and Stimuli Protocol for Investigating Depression and Suicidal Ideation",
+      "source_title": "PRECOG: Comprehensive Experimental Design and Stimuli Protocol for Investigating Depression and Suicidal Ideation",
+      "author": "Myzelle Hughes and Colin McDaniel and Takfarinas Medani and Woojae Jeong and Idan Blank and Dani Byrd and Thomas McGee and Kleanthis Avramidis and Sudarsana Kadiri and Chinmay Chinara and Kristina Lerman and Elsi Kaiser and Richard Leahy and Shrikanth Narayanan and Baruch Rael Cahn",
+      "authors": [
+        "Myzelle Hughes",
+        "Colin McDaniel",
+        "Takfarinas Medani",
+        "Woojae Jeong",
+        "Idan Blank",
+        "Dani Byrd",
+        "Thomas McGee",
+        "Kleanthis Avramidis",
+        "Sudarsana Kadiri",
+        "Chinmay Chinara",
+        "Kristina Lerman",
+        "Elsi Kaiser",
+        "Richard Leahy",
+        "Shrikanth Narayanan",
+        "Baruch Rael Cahn"
+      ],
+      "year": "2025",
+      "date": "2025",
+      "journal": "Open Science Framework",
+      "html": "https://osf.io/preprints/osf/nxvz5_v1",
+      "pdf": "",
+      "code": "",
+      "raw": "@article{hughesprecog,\n  title={PRECOG: Comprehensive Experimental Design and Stimuli Protocol for Investigating Depression and Suicidal Ideation},\n  author={Myzelle Hughes and Colin McDaniel and Takfarinas Medani and Woojae Jeong and Idan Blank and Dani Byrd and Thomas McGee and Kleanthis Avramidis and Sudarsana Kadiri and Chinmay Chinara and Kristina Lerman and Elsi Kaiser and Richard Leahy and Shrikanth Narayanan and Baruch Rael Cahn},\n  year={2025},\n  journal={Open Science Framework},\n  publisher={Open Science Framework (OSF)},\n  url={https://osf.io/preprints/osf/nxvz5_v1}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "Experimental protocol and affective stimuli underpinning the PRECOG portfolio.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:9ZlFYXVOiuMC",
+        "https://osf.io/preprints/osf/nxvz5_v1"
+      ]
+    },
+    {
+      "key": "kommineni2024knowledge",
+      "title": "Knowledge-Guided EEG Representation Learning",
+      "source_title": "Knowledge-guided EEG Representation Learning",
+      "author": "Aditya Kommineni and Kleanthis Avramidis and Richard Leahy and Shrikanth Narayanan",
+      "authors": [
+        "Aditya Kommineni",
+        "Kleanthis Avramidis",
+        "Richard Leahy",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2024",
+      "date": "2024/12/17",
+      "journal": "IEEE Engineering in Medicine and Biology Society Conference (EMBC)",
+      "html": "https://ieeexplore.ieee.org/abstract/document/10782310/",
+      "pdf": "https://arxiv.org/pdf/2403.03222",
+      "code": "https://github.com/Uncertain-Quark/s4_eeg",
+      "raw": "@inproceedings{kommineni2024knowledge,\n  title={Knowledge-Guided EEG Representation Learning},\n  author={Aditya Kommineni and Kleanthis Avramidis and Richard Leahy and Shrikanth Narayanan},\n  year={2024},\n  booktitle={IEEE Engineering in Medicine and Biology Society Conference (EMBC)},\n  pages={1-5},\n  url={https://ieeexplore.ieee.org/abstract/document/10782310/}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "EEG representation learning informed by signal structure.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:3fE2CSJIrl8C",
+        "https://ieeexplore.ieee.org/abstract/document/10782310/",
+        "https://github.com/Uncertain-Quark/s4_eeg"
+      ]
+    },
+    {
+      "key": "avramidis2024evaluating",
+      "title": "Evaluating Atypical Gaze Patterns Through Vision Models: The Case of Cortical Visual Impairment",
+      "source_title": "Evaluating Atypical Gaze Patterns through Vision Models: The Case of Cortical Visual Impairment",
+      "author": "Kleanthis Avramidis and Melinda Y Chang and Rahul Sharma and Mark S Borchert and Shrikanth Narayanan",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Melinda Y Chang",
+        "Rahul Sharma",
+        "Mark S Borchert",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2024",
+      "date": "2024/12/17",
+      "journal": "IEEE Engineering in Medicine and Biology Society Conference (EMBC)",
+      "html": "https://ieeexplore.ieee.org/abstract/document/10782199/",
+      "pdf": "https://arxiv.org/pdf/2402.09655",
+      "code": "https://github.com/klean2050/cvi-eye-tracking",
+      "raw": "@inproceedings{avramidis2024evaluating,\n  title={Evaluating Atypical Gaze Patterns Through Vision Models: The Case of Cortical Visual Impairment},\n  author={Kleanthis Avramidis and Melinda Y Chang and Rahul Sharma and Mark S Borchert and Shrikanth Narayanan},\n  year={2024},\n  booktitle={IEEE Engineering in Medicine and Biology Society Conference (EMBC)},\n  pages={1-5},\n  url={https://ieeexplore.ieee.org/abstract/document/10782199/}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:8k81kl-MbHgC",
+        "https://ieeexplore.ieee.org/abstract/document/10782199/",
+        "https://github.com/klean2050/cvi-eye-tracking"
+      ]
+    },
+    {
+      "key": "avramidis2023scaling",
+      "title": "Scaling Representation Learning From Ubiquitous ECG With State-Space Models",
+      "source_title": "Scaling Representation Learning from Ubiquitous ECG with State-Space Models",
+      "author": "Kleanthis Avramidis and Dominika Kunc and Bartosz Perz and Kranti Adsul and Tiantian Feng and Przemysław Kazienko and Stanisław Saganowski and Shrikanth Narayanan",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Dominika Kunc",
+        "Bartosz Perz",
+        "Kranti Adsul",
+        "Tiantian Feng",
+        "Przemysław Kazienko",
+        "Stanisław Saganowski",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2024",
+      "date": "2024/6/27",
+      "journal": "IEEE Journal of Biomedical and Health Informatics",
+      "html": "https://ieeexplore.ieee.org/abstract/document/10574308/",
+      "pdf": "https://ieeexplore.ieee.org/iel8/6221020/6363502/10574308.pdf",
+      "code": "https://github.com/klean2050/tiles_ecg_model",
+      "raw": "@article{avramidis2023scaling,\n  title={Scaling Representation Learning From Ubiquitous ECG With State-Space Models},\n  author={Kleanthis Avramidis and Dominika Kunc and Bartosz Perz and Kranti Adsul and Tiantian Feng and Przemysław Kazienko and Stanisław Saganowski and Shrikanth Narayanan},\n  year={2024},\n  journal={IEEE Journal of Biomedical and Health Informatics},\n  publisher={IEEE},\n  url={https://ieeexplore.ieee.org/abstract/document/10574308/}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:5nxA0vEk-isC",
+        "https://ieeexplore.ieee.org/abstract/document/10574308/",
+        "https://github.com/klean2050/tiles_ecg_model"
+      ]
+    },
+    {
+      "key": "avramidis2023role",
+      "title": "On the Role of Visual Context in Enriching Music Representations",
+      "source_title": "On the Role of Visual Context in Enriching Music Representations",
+      "author": "Kleanthis Avramidis and Shanti Stewart and Shrikanth Narayanan",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Shanti Stewart",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2023",
+      "date": "2023/6/4",
+      "journal": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "html": "https://ieeexplore.ieee.org/abstract/document/10094915/",
+      "pdf": "https://arxiv.org/pdf/2210.15828",
+      "code": "https://github.com/klean2050/VCMR",
+      "raw": "@inproceedings{avramidis2023role,\n  title={On the Role of Visual Context in Enriching Music Representations},\n  author={Kleanthis Avramidis and Shanti Stewart and Shrikanth Narayanan},\n  year={2023},\n  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n  pages={1-5},\n  publisher={IEEE},\n  url={https://ieeexplore.ieee.org/abstract/document/10094915/}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:zYLM7Y9cAGgC",
+        "https://ieeexplore.ieee.org/abstract/document/10094915/",
+        "https://github.com/klean2050/VCMR"
+      ]
+    },
+    {
+      "key": "Kleanthis-AmbientAI-Wkshp-ICASSP23",
+      "title": "Multimodal Estimation of Change Points of Physiological Arousal During Driving",
+      "source_title": "Multimodal Estimation Of Change Points Of Physiological Arousal During Driving",
+      "author": "Kleanthis Avramidis and Tiantian Feng and Digbalay Bose and Shrikanth Narayanan",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Tiantian Feng",
+        "Digbalay Bose",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2023",
+      "date": "2023/6/4",
+      "journal": "IEEE International Conference on Acoustics, Speech and Signal Processing Workshops (ICASSPW)",
+      "html": "https://ieeexplore.ieee.org/abstract/document/10193718/",
+      "pdf": "https://arxiv.org/pdf/2210.15826",
+      "code": "https://github.com/usc-sail/ggs_driving",
+      "raw": "@inproceedings{Kleanthis-AmbientAI-Wkshp-ICASSP23,\n  title={Multimodal Estimation of Change Points of Physiological Arousal During Driving},\n  author={Kleanthis Avramidis and Tiantian Feng and Digbalay Bose and Shrikanth Narayanan},\n  year={2023},\n  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing Workshops (ICASSPW)},\n  pages={1-5},\n  publisher={IEEE},\n  url={https://ieeexplore.ieee.org/abstract/document/10193718/}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:W7OEmFMy1HYC",
+        "https://ieeexplore.ieee.org/abstract/document/10193718/",
+        "https://github.com/usc-sail/ggs_driving"
+      ]
+    },
+    {
+      "key": "signal-processing-grand-challenge-2023e-prevention-sleep-behavior-as-an-indicator-of-relapses-in-psychotic-patients",
+      "title": "Signal Processing Grand Challenge 2023–E-Prevention: Sleep Behavior as an Indicator of Relapses in Psychotic Patients",
+      "source_title": "Signal processing grand challenge 2023–E-prevention: Sleep behavior as an indicator of relapses in psychotic patients",
+      "author": "Kleanthis Avramidis and Kranti Adsul and Digbalay Bose and Shrikanth Narayanan",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Kranti Adsul",
+        "Digbalay Bose",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2023",
+      "date": "2023/6/4",
+      "journal": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "html": "https://ieeexplore.ieee.org/abstract/document/10096044/",
+      "pdf": "https://arxiv.org/pdf/2304.08614",
+      "code": "",
+      "raw": "@inproceedings{signal-processing-grand-challenge-2023e-prevention-sleep-behavior-as-an-indicator-of-relapses-in-psychotic-patients,\n  title={Signal Processing Grand Challenge 2023–E-Prevention: Sleep Behavior as an Indicator of Relapses in Psychotic Patients},\n  author={Kleanthis Avramidis and Kranti Adsul and Digbalay Bose and Shrikanth Narayanan},\n  year={2023},\n  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n  pages={1-2},\n  publisher={IEEE},\n  url={https://ieeexplore.ieee.org/abstract/document/10096044/}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:Y0pCki6q_DkC",
+        "https://ieeexplore.ieee.org/abstract/document/10096044/"
+      ]
+    },
+    {
+      "key": "avramidis2022automating",
+      "title": "Automating Detection of Papilledema in Pediatric Fundus Images With Explainable Machine Learning",
+      "source_title": "Automating Detection of Papilledema in Pediatric Fundus Images with Explainable Machine Learning",
+      "author": "Kleanthis Avramidis and Mohammad Rostami and Melinda Chang and Shrikanth Narayanan",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Mohammad Rostami",
+        "Melinda Chang",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2022",
+      "date": "2022/10/16",
+      "journal": "IEEE International Conference on Image Processing (ICIP)",
+      "html": "https://ieeexplore.ieee.org/abstract/document/9897529/",
+      "pdf": "https://arxiv.org/pdf/2207.04565",
+      "code": "https://github.com/klean2050/papilledema",
+      "raw": "@inproceedings{avramidis2022automating,\n  title={Automating Detection of Papilledema in Pediatric Fundus Images With Explainable Machine Learning},\n  author={Kleanthis Avramidis and Mohammad Rostami and Melinda Chang and Shrikanth Narayanan},\n  year={2022},\n  booktitle={IEEE International Conference on Image Processing (ICIP)},\n  pages={3973-3977},\n  publisher={IEEE},\n  url={https://ieeexplore.ieee.org/abstract/document/9897529/}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:IjCSPb-OGe4C",
+        "https://ieeexplore.ieee.org/abstract/document/9897529/",
+        "https://github.com/klean2050/papilledema"
+      ]
+    },
+    {
+      "key": "avramidis2022enhancing",
+      "title": "Enhancing Affective Representations of Music-Induced EEG Through Multimodal Supervision and Latent Domain Adaptation",
+      "source_title": "Enhancing Affective Representations of Music-induced EEG through Multimodal Supervision and Latent Domain Adaptation",
+      "author": "Kleanthis Avramidis and Christos Garoufis and Athanasia Zlatintsi and Petros Maragos",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Christos Garoufis",
+        "Athanasia Zlatintsi",
+        "Petros Maragos"
+      ],
+      "year": "2022",
+      "date": "2022/5/23",
+      "journal": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+      "html": "https://ieeexplore.ieee.org/abstract/document/9746643/",
+      "pdf": "https://arxiv.org/pdf/2202.09750",
+      "code": "https://github.com/klean2050/EEG_CrossModal",
+      "raw": "@inproceedings{avramidis2022enhancing,\n  title={Enhancing Affective Representations of Music-Induced EEG Through Multimodal Supervision and Latent Domain Adaptation},\n  author={Kleanthis Avramidis and Christos Garoufis and Athanasia Zlatintsi and Petros Maragos},\n  year={2022},\n  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n  pages={4588-4592},\n  publisher={IEEE},\n  url={https://ieeexplore.ieee.org/abstract/document/9746643/}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:UeHWp8X0CEIC",
+        "https://ieeexplore.ieee.org/abstract/document/9746643/",
+        "https://github.com/klean2050/EEG_CrossModal"
+      ]
+    },
+    {
+      "key": "avramidis2021multiscale",
+      "title": "Multiscale Fractal Analysis on EEG Signals for Music-Induced Emotion Recognition",
+      "source_title": "Multiscale Fractal Analysis on EEG Signals for Music-Induced Emotion Recognition",
+      "author": "Kleanthis Avramidis and Athanasia Zlatintsi and Christos Garoufis and Petros Maragos",
+      "authors": [
+        "Kleanthis Avramidis",
+        "Athanasia Zlatintsi",
+        "Christos Garoufis",
+        "Petros Maragos"
+      ],
+      "year": "2021",
+      "date": "2021/8/12",
+      "journal": "European Signal Processing Conference (EUSIPCO)",
+      "html": "https://ieeexplore.ieee.org/abstract/document/9616140/",
+      "pdf": "https://arxiv.org/pdf/2010.16310",
+      "code": "",
+      "raw": "@inproceedings{avramidis2021multiscale,\n  title={Multiscale Fractal Analysis on EEG Signals for Music-Induced Emotion Recognition},\n  author={Kleanthis Avramidis and Athanasia Zlatintsi and Christos Garoufis and Petros Maragos},\n  year={2021},\n  booktitle={European Signal Processing Conference (EUSIPCO)},\n  pages={1316-1320},\n  publisher={IEEE},\n  url={https://ieeexplore.ieee.org/abstract/document/9616140/}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "All first-author work retained.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:u-x6o8ySG0sC",
+        "https://ieeexplore.ieee.org/abstract/document/9616140/"
+      ]
+    },
+    {
+      "key": "kratimenos2021augmentation",
+      "title": "Augmentation Methods on Monophonic Audio for Instrument Classification in Polyphonic Music",
+      "source_title": "Augmentation Methods on Monophonic Audio for Instrument Classification in Polyphonic Music",
+      "author": "Agelos Kratimenos and Kleanthis Avramidis and Christos Garoufis and Athanasia Zlatintsi and Petros Maragos",
+      "authors": [
+        "Agelos Kratimenos",
+        "Kleanthis Avramidis",
+        "Christos Garoufis",
+        "Athanasia Zlatintsi",
+        "Petros Maragos"
+      ],
+      "year": "2021",
+      "date": "2021/1/18",
+      "journal": "European Signal Processing Conference (EUSIPCO)",
+      "html": "https://ieeexplore.ieee.org/abstract/document/9287745/",
+      "pdf": "https://arxiv.org/pdf/1911.12505",
+      "code": "https://github.com/klean2050/IC_Augment",
+      "raw": "@inproceedings{kratimenos2021augmentation,\n  title={Augmentation Methods on Monophonic Audio for Instrument Classification in Polyphonic Music},\n  author={Agelos Kratimenos and Kleanthis Avramidis and Christos Garoufis and Athanasia Zlatintsi and Petros Maragos},\n  year={2021},\n  booktitle={European Signal Processing Conference (EUSIPCO)},\n  pages={156-160},\n  publisher={IEEE},\n  url={https://ieeexplore.ieee.org/abstract/document/9287745/}\n}",
+      "first_author": true,
+      "co_first_author": true,
+      "selection_reason": "Co-first-author paper included at the user’s request.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:u5HHmVD_uO8C",
+        "https://ieeexplore.ieee.org/abstract/document/9287745/",
+        "https://github.com/klean2050/IC_Augment"
+      ]
+    }
+  ],
+  "check_scope": "October 17 selection retained; two October 21 first-author preprints and official BrainCodes Website/Code links added November 4. Other records were not re-audited."
+}
