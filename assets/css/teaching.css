@@ -1,0 +1,180 @@
+.teaching-main {
+  padding:40px 0 22px}
+.teaching-title {
+  margin:0 0 34px}
+.teaching-section {
+  margin-bottom:30px}
+.teaching-heading {
+  display:flex;
+  align-items:center;
+  gap:22px;
+  margin-bottom:18px}
+.teaching-heading:after {
+  content:"";
+  height:1px;
+  background:var(--line);
+  flex:1}
+.teaching-heading h2 {
+  font-size:24px}
+.teaching-entry {
+  background:var(--soft);
+  border-radius:11px;
+  padding:25px 28px;
+  display:grid;
+  grid-template-columns:130px minmax(0,1fr);
+  gap:25px;
+  min-height:155px;
+  align-items:start}
+.teaching-entry+.teaching-entry {
+  margin-top:14px}
+.entry-period {
+  font-size:14px;
+  color:var(--muted);
+  margin:4px 0 0}
+.course-entry {
+  padding:17px 24px;
+  min-height:0;
+  gap:25px}
+.course-term {
+  color:var(--accent);
+  font-weight:500}
+.course-entry .entry-copy h3 {
+  font-size:24px;
+  margin-bottom:5px}
+.course-entry .entry-copy p {
+  margin:0}
+.course-entry .entry-copy .role {
+  white-space:nowrap}
+.entry-copy h3 {
+  font:400 25px/1.25 var(--serif);
+  letter-spacing:-.25px;
+  margin:0 0 9px;
+  color:var(--ink)}
+.entry-copy p {
+  font-size:16px;
+  color:var(--muted);
+  margin:0 0 7px;
+  line-height:1.6}
+.entry-copy p:last-child {
+  margin-bottom:0}
+.mentoring-entry {
+  background:var(--bg);
+  border:1px solid var(--line)}
+.mentoring-entry {
+  padding:18px 24px;
+  min-height:0;
+  align-items:center}
+.mentee-photo {
+  width:88px;
+  height:88px;
+  display:block;
+  object-fit:cover;
+  object-position:center 35%;
+  border-radius:8px}
+.mentee-photo.shanti {
+  object-position:center 30%}
+.mentoring-entry h3 {
+  color:var(--ink);
+  margin-bottom:5px}
+.mentoring-entry h3 a {
+  color:inherit}
+.mentoring-entry .mentee-year {
+  color:var(--accent);
+  font-size:14px;
+  margin:0}
+.teaching-page footer {
+  padding-top:0;
+  padding-bottom:25px}
+@media(max-width:700px) {
+  .teaching-main {
+    padding:28px 0 16px  }
+  .teaching-title {
+    font-size:40px;
+    margin-bottom:28px  }
+  .teaching-heading h2 {
+    font-size:23px  }
+  .teaching-entry {
+    padding:23px 24px;
+    grid-template-columns:1fr;
+    gap:12px  }
+  .entry-period {
+    margin:0  }
+  .entry-copy h3 {
+    font-size:24px  }
+  .teaching-section {
+    margin-bottom:27px  }
+  .course-entry {
+    padding:17px 20px;
+    gap:7px  }
+  .course-entry .entry-copy h3 {
+    font-size:23px  }
+  .mentoring-entry {
+    grid-template-columns:72px minmax(0,1fr);
+    gap:18px;
+    padding:17px 20px  }
+  .mentee-photo {
+    width:72px;
+    height:72px  }
+  .mentoring-entry .entry-copy h3 {
+    font-size:23px  }
+}
+@media(max-width:380px) {
+  .teaching-title {
+    font-size:36px  }
+  .teaching-entry {
+    padding:21px  }
+  .course-entry {
+    padding:16px 18px  }
+}
+
+/* Each mentee occupies one of three desktop columns. */
+.mentee-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.mentee-grid .mentoring-entry {
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 16px;
+  padding: 18px;
+  margin: 0;
+  min-width: 0;
+}
+.mentee-grid .mentee-photo {
+  width: 72px;
+  height: 72px;
+}
+.mentee-grid .entry-copy h3 {
+  font-size: 23px;
+}
+@media (max-width: 700px) {
+  .mentee-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}
+
+.mentee-grid .mentee-placeholder {
+  display: grid;
+  place-items: center;
+  background: var(--soft);
+  color: var(--muted);
+  font-size: 18px;
+  font-weight: 500;
+}
+.mentee-grid .mentee-details {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 5px 0 0;
+}
+
+.mentee-grid .mentee-after {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.mentee-after strong {
+  font-weight: 600;
+}

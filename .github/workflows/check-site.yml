@@ -1,0 +1,30 @@
+name: Check website
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Check pages and local links
+        run: python3 scripts/check.py
+      - name: Check JavaScript syntax
+        run: |
+          for script in assets/js/*.js; do
+            node --check "$script"
+          done
+      - name: Install the CV test dependency
+        run: python3 -m pip install 'pypdf>=5,<7'
+      - name: Test the CV sync and publication handling
+        run: python3 -m unittest discover -s scripts/tests -v

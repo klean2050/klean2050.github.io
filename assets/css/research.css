@@ -1,0 +1,35 @@
+.direction-main { padding: 32px 0 40px; }
+.direction-nav { display: flex; gap: 6px; padding: 7px; background: var(--soft); border-radius: 9px; }
+.direction-nav a { flex: 1; display: flex; align-items: center; justify-content: center; text-align: center; padding: 9px 12px; font-size: 15px; line-height: 1.5; color: var(--muted); border-radius: 6px; }
+.direction-nav a[aria-current="page"] { background: var(--bg); color: var(--accent); font-weight: 600; }
+.direction-nav a:hover { color: var(--accent); text-decoration: none; }
+.direction-header { padding: 30px 0 23px; }
+.direction-header h1 { font-size: 42px; line-height: 1.16; max-width: none; letter-spacing: -.8px; margin: 0; text-wrap: wrap; }
+.direction-text { max-width: 890px; }
+.direction-text p { font-size: 16px; line-height: 1.8; color: var(--ink); margin: 0 0 17px; }
+.direction-text p:last-child { margin-bottom: 0; }
+.inline-citation { white-space: nowrap; font-size: .9em; }
+.direction-references { padding-top: 29px; }
+.direction-heading { display: flex; align-items: center; gap: 22px; margin-bottom: 22px; }
+.direction-heading:after { content: ""; height: 1px; background: var(--line); flex: 1; }
+.direction-heading h2 { font-size: 24px; margin: 0; }
+.direction-references .paper { scroll-margin-top: 24px; }
+.reference-number { font-variant-numeric: tabular-nums; color: var(--muted); }
+.research-page footer { padding-top: 20px; padding-bottom: 24px; }
+@media (max-width: 900px) {
+  .direction-header h1 { font-size: 39px; }
+  .direction-nav a { font-size: 14px; padding: 9px; }
+}
+@media (max-width: 700px) {
+  .direction-main { padding: 24px 0 25px; }
+  .direction-nav { gap: 3px; padding: 5px; }
+  .direction-nav a { padding: 8px 5px; font-size: 14px; line-height: 1.4; }
+  .direction-header { padding: 26px 0 20px; }
+  .direction-header h1 { font-size: 35px; line-height: 1.17; letter-spacing: -.6px; text-wrap: pretty; }
+  .direction-references { padding-top: 25px; }
+  .direction-heading h2 { font-size: 23px; }
+}
+@media (max-width: 380px) {
+  .direction-nav a { font-size: 13px; padding: 8px 3px; }
+  .direction-header h1 { font-size: 32px; }
+}

@@ -1,0 +1,248 @@
+{
+  "updated": "2026-11-06",
+  "source": "User-provided photos-site folder on Desktop.",
+  "dates": "Dates from embedded DateTimeOriginal unless marked user-confirmed. File modification dates are not used.",
+  "processing": "Web-sized derivatives only; natural aspect ratios, no retouching. Original source files unchanged.",
+  "occasions": [
+    {
+      "key": "sail",
+      "title": "USC SAIL turns 25",
+      "date": "2026-01",
+      "display_date": "Jan 2026",
+      "photos": [
+        {
+          "slug": "sail",
+          "alt": "A speaker presenting at a SAIL gathering.",
+          "path": "assets/photos/sail/sail.jpg",
+          "source_file": "sail-25.jpg"
+        }
+      ],
+      "date_source": "Official reunion program and USC Viterbi report: https://sail.usc.edu/site_files/sail25-workshop-page-main/index.html ; https://viterbischool.usc.edu/news/2026/03/25-years-of-usc-sail-lab/ . Event January 16–17, 2026; month only is shown because the exact photo day is not established."
+    },
+    {
+      "key": "rhodes",
+      "title": "Family Meet-up in ICASSP, Greece",
+      "date": "2023-06-07",
+      "display_date": "Jun 2023",
+      "photos": [
+        {
+          "slug": "rhodes-dinner",
+          "alt": "A group gathered outdoors for dinner in Rhodes.",
+          "path": "assets/photos/rhodes/rhodes-dinner.jpg",
+          "source_file": "rhodes-dinner.jpg"
+        }
+      ]
+    },
+    {
+      "key": "beach-day",
+      "title": "Beach day in Santa Monica",
+      "date": "2023-02-19",
+      "display_date": "Feb 2023",
+      "photos": [
+        {
+          "slug": "beach-day-2",
+          "alt": "A group on the beach, with palm trees in the background.",
+          "path": "assets/photos/beach-day/beach-day-2.jpg",
+          "source_file": "beach-day-2.jpg"
+        },
+        {
+          "slug": "beach-day",
+          "alt": "A group selfie beside the beach.",
+          "path": "assets/photos/beach-day/beach-day.jpg",
+          "source_file": "beach-day.jpg"
+        }
+      ]
+    },
+    {
+      "key": "at-shris",
+      "title": "At Shri’s",
+      "date": "2023-02-19",
+      "display_date": "Feb 2023",
+      "photos": [
+        {
+          "slug": "at-shris",
+          "alt": "A group relaxing indoors at Shri’s, with a dog.",
+          "path": "assets/photos/at-shris/at-shris.jpg",
+          "source_file": "shri-house.jpg"
+        }
+      ]
+    },
+    {
+      "key": "sipi-50",
+      "title": "USC SIPI’s 50th anniversary",
+      "date": "2023-02-18",
+      "display_date": "Feb 2023",
+      "photos": [
+        {
+          "slug": "sipi-50",
+          "alt": "A group photo in front of the SIPI 50 sign.",
+          "path": "assets/photos/sipi-50/sipi-50.jpg",
+          "source_file": "sipi50.jpeg"
+        }
+      ]
+    },
+    {
+      "key": "usc",
+      "title": "Toyota Visit in USC Campus",
+      "date": "2023-02-02",
+      "display_date": "Feb 2023",
+      "photos": [
+        {
+          "slug": "usc-group",
+          "alt": "A group photo beside the Tommy Trojan statue at USC.",
+          "path": "assets/photos/usc/usc-group.jpg",
+          "source_file": "TeamPicture-USC-Trojan.jpg"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "source_file": "sail-25.jpg",
+      "source_sha256": "bf71544c0a41f265378368dee70b471a6a661f14d822d5783eae6cb4b9801d8e",
+      "occasion": "sail",
+      "slug": "sail",
+      "original_dimensions": [
+        2246,
+        1684
+      ],
+      "preview_dimensions": {
+        "480": [
+          480,
+          360
+        ],
+        "960": [
+          960,
+          720
+        ]
+      },
+      "display_date": "Jan 2026"
+    },
+    {
+      "source_file": "rhodes-dinner.jpg",
+      "source_sha256": "2b6c14fe8ce5c7e001058dff5fe19055fb018ca374294c13dbfb308184298297",
+      "occasion": "rhodes",
+      "slug": "rhodes-dinner",
+      "original_dimensions": [
+        2460,
+        1392
+      ],
+      "preview_dimensions": {
+        "480": [
+          480,
+          272
+        ],
+        "960": [
+          960,
+          543
+        ]
+      },
+      "display_date": "Jun 2023"
+    },
+    {
+      "source_file": "beach-day.jpg",
+      "source_sha256": "2a1f318a01fccc0ad992ae259c223888637f7e352dd29d240eaa97059b1f4dc3",
+      "occasion": "beach-day",
+      "slug": "beach-day",
+      "original_dimensions": [
+        2246,
+        1684
+      ],
+      "preview_dimensions": {
+        "480": [
+          480,
+          360
+        ],
+        "960": [
+          960,
+          720
+        ]
+      },
+      "display_date": "Feb 2023"
+    },
+    {
+      "source_file": "beach-day-2.jpg",
+      "source_sha256": "d3ba3ea1ea98c627c7eebe5799b5a04849863a2985cd22bfdc922f73e1039c5f",
+      "occasion": "beach-day",
+      "slug": "beach-day-2",
+      "original_dimensions": [
+        2142,
+        1684
+      ],
+      "preview_dimensions": {
+        "480": [
+          480,
+          377
+        ],
+        "960": [
+          960,
+          755
+        ]
+      },
+      "display_date": "Feb 2023"
+    },
+    {
+      "source_file": "shri-house.jpg",
+      "source_sha256": "951cd8215e883a7956fdcc55e5bb7e7f6b91b2dafd90f1349917958c2c36265b",
+      "occasion": "at-shris",
+      "slug": "at-shris",
+      "original_dimensions": [
+        2246,
+        1684
+      ],
+      "preview_dimensions": {
+        "480": [
+          480,
+          360
+        ],
+        "960": [
+          960,
+          720
+        ]
+      },
+      "display_date": "Feb 2023"
+    },
+    {
+      "source_file": "sipi50.jpeg",
+      "source_sha256": "764941bfdea412401ec0c7353619537eeed68c33891a6ddde47bb7964c2eef95",
+      "occasion": "sipi-50",
+      "slug": "sipi-50",
+      "original_dimensions": [
+        2460,
+        1640
+      ],
+      "preview_dimensions": {
+        "480": [
+          480,
+          320
+        ],
+        "960": [
+          960,
+          640
+        ]
+      },
+      "display_date": "Feb 2023"
+    },
+    {
+      "source_file": "TeamPicture-USC-Trojan.jpg",
+      "source_sha256": "36b72c9cede74fbead2f625e425798d5c6cb704b5cfe6130d9ea9c196392a00e",
+      "occasion": "usc",
+      "slug": "usc-group",
+      "original_dimensions": [
+        2016,
+        1512
+      ],
+      "preview_dimensions": {
+        "480": [
+          480,
+          360
+        ],
+        "960": [
+          960,
+          720
+        ]
+      },
+      "display_date": "Feb 2023"
+    }
+  ]
+}

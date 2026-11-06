@@ -1,0 +1,71 @@
+{
+  "added": "2026-11-04",
+  "notes": "Month-only dates are preserved where no exact day is known. Original update archive retained. No acceptance is claimed for preprints.",
+  "entries": [
+    {
+      "date": "2026-10-21",
+      "display": "Oct 21, 2026",
+      "text": "BrainCodes, our lightweight EEG foundation model over discrete neural codes, is out as a preprint.",
+      "links": [
+        [
+          "Project",
+          "https://microsoft.github.io/BrainCodes/"
+        ],
+        [
+          "Paper",
+          "https://arxiv.org/abs/2610.29320"
+        ]
+      ],
+      "source": "Official arXiv record and Microsoft project repository."
+    },
+    {
+      "date": "2026-09-24",
+      "display": "Sep 24, 2026",
+      "text": "Gave a talk on “Scaling Psychiatric Biomarkers in Context and Time” at the CuttingEEG Symposium in San Diego.",
+      "links": [],
+      "source": "Official San Diego program: https://cuttingeeg.org/cuttinggardens2026/gardens/san-diego/ ; Kleanthis Avramidis talk listed September 24, 2026, 14:20. Verified November 6, 2026."
+    },
+    {
+      "date": "2026-08-07",
+      "display": "Aug 7, 2026",
+      "text": "Wrapped up my research internship with the Audio & Acoustics Research Group at Microsoft in Redmond, working with Dimitra Emmanouilidou on EEG foundation models and their evaluation.",
+      "links": [],
+      "source": "Fall 2026 CV: May-August 2026; research statement. Day set at user request to the Friday closest to August 8, 2026: August 7."
+    },
+    {
+      "date": "2026-03-28",
+      "display": "Mar 28, 2026",
+      "text": "Our eye-tracking study of depression and suicidal ideation in young adults is published in npj Digital Medicine.",
+      "links": [
+        [
+          "Paper",
+          "https://www.nature.com/articles/s41746-026-02550-4"
+        ]
+      ],
+      "source": "Publisher publication date."
+    },
+    {
+      "date": "2025-10-10",
+      "display": "Oct 10, 2025",
+      "text": "BioCodec is out: we study neural codecs as tokenizers for physiological signals.",
+      "links": [
+        [
+          "Paper",
+          "https://arxiv.org/abs/2510.09095"
+        ],
+        [
+          "Code",
+          "https://github.com/klean2050/BioCodec-release"
+        ]
+      ],
+      "source": "Official arXiv submission date and public code repository."
+    },
+    {
+      "date": "2025-10",
+      "display": "Oct 2025",
+      "text": "Presented our work on ECG representation learning at the Apple Workshop on Machine Learning for Health in Cupertino.",
+      "links": [],
+      "source": "Fall 2026 CV confirms October 2025; supplied poster has no explicit event date. Public Apple pages and attendee sources searched November 6, 2026; exact day not verified, so month retained."
+    }
+  ]
+}

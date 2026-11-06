@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="I develop efficient representations of physiological signals and study what information they preserve across tasks and recording conditions.">
+<meta name="theme-color" content="#ffffff">
+<script>try{if((localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"))==="dark")document.documentElement.dataset.theme="dark"}catch(e){}</script>
+<title>Learning transferable biosignal representations — Kleanthis Avramidis</title>
+<link rel="stylesheet" href="../../assets/css/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23334fc4'/%3E%3Ctext x='20' y='28' text-anchor='middle' font-family='Arial' font-size='24' fill='white'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../assets/css/publications.css">
+<link rel="stylesheet" href="../../assets/css/research.css">
+</head>
+<body class="research-page"><a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<nav class="nav" aria-label="Main navigation"><button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+<div id="nav-links"><a href="../../">About</a><a href="../../assets/Kleanthis-Avramidis-CV.pdf" target="_blank" rel="noopener">CV</a><a href="../../publications/">Publications</a><a href="../../teaching/">Teaching</a><a href="../../clicks/">Clicks</a>
+</div>
+<button id="theme-toggle" aria-label="Switch to dark theme" title="Switch to dark theme"><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.7 13.2A8.5 8.5 0 0 1 10.8 3.3a8.5 8.5 0 1 0 9.9 9.9Z"/></svg><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button>
+</nav>
+</header>
+<main class="direction-main wrap" id="main">
+<nav class="direction-nav" aria-label="Research directions"><a href="../biosignal-representations/" aria-current="page">Biosignal representations</a><a href="../multimodal-dynamics/">Multimodal dynamics</a><a href="../clinical-translation/">Clinical translation</a>
+</nav>
+<header class="direction-header">
+<h1>Learning transferable biosignal representations</h1>
+</header>
+<div class="direction-text">
+<p>I develop compact learning methods for physiological signals. I want representations that preserve the information needed to study human function and remain useful across tasks, people, and recording conditions.</p>
+<p>Long recordings contain many samples, but the information relevant to a particular process may lie in a few temporal, spectral, or spatial patterns. I design models around these properties, and study how their training objectives shape what they learn. This connects efficiency with generalization: I ask which aspects of the signal remain useful outside the training setting.</p>
+<p>In WildECG, I trained a self-supervised state-space model on 275,000 ECG segments recorded in everyday settings. Its training task identifies transformations applied to a signal, encouraging sensitivity to distortions while the architecture efficiently models long sequences. <a class="inline-citation" href="#work-avramidis2023scaling" aria-label="Reference 1: Scaling Representation Learning From Ubiquitous ECG With State-Space Models">[1]</a></p>
+<p>I examine this question at the signal level with BioCodec, using quantization to turn continuous biosignals into discrete codes. This bottleneck learns compact signal structure: a tokenizer trained on single-channel EEG retained information useful for clinical, sleep, and neural-decoding tasks. <a class="inline-citation" href="#work-neural-codecs-as-biosignal-tokenizers" aria-label="Reference 2: Neural Codecs as Biosignal Tokenizers">[2]</a></p>
+<p>I then used these codes to develop BrainCodes, a lightweight EEG foundation model over discrete neural codes, pretrained on recordings from over 1,000 participants. It matches or exceeds larger models on several evaluated tasks, with up to 97% fewer trainable parameters. <a class="inline-citation" href="#work-avramidis2026braincodes" aria-label="Reference 3: BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes">[3]</a></p>
+<p>To understand this transfer, I also examine the representations themselves. Predictive accuracy alone does not establish which aspects of physiology a model uses. My work examines generalization across recording settings <a class="inline-citation" href="#work-a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models" aria-label="Reference 4: A Multi-Dimensional Framework for Evaluating Generalization in EEG Foundation Models">[4]</a> and bias toward aperiodic and low-frequency activity <a class="inline-citation" href="#work-aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models" aria-label="Reference 5: Aperiodic and Low-Frequency Spectral Bias in Reconstruction-Based EEG Foundation Models">[5]</a>. I also developed spatial and spectral probes to distinguish information encoded in a representation from information that influences its predictions <a class="inline-citation" href="#work-avramidis2026grounding" aria-label="Reference 6: Probing Spatial and Spectral Grounding in EEG Foundation Models">[6]</a>.</p>
+<p>I am interested in how reconstruction, contrastive, and predictive objectives preserve different aspects of physiology. I want to develop hierarchical representations that make both transient events and stable individual traits accessible, with evaluations that test signal morphology, oscillations, and spatial relationships.</p>
+</div>
+<section class="direction-references" aria-labelledby="references-heading">
+<div class="direction-heading"><h2 id="references-heading">References</h2></div>
+<article class="paper" id="work-avramidis2023scaling" aria-labelledby="title-work-avramidis2023scaling">
+<h3 id="title-work-avramidis2023scaling"><span class="reference-number">1.</span> <a href="https://ieeexplore.ieee.org/abstract/document/10574308/" target="_blank" rel="noopener">Scaling Representation Learning From Ubiquitous ECG With State-Space Models</a></h3>
+<p class="authors"><strong>Kleanthis Avramidis</strong>, Dominika Kunc, Bartosz Perz, Kranti Adsul, Tiantian Feng, Przemysław Kazienko, Stanisław Saganowski, Shrikanth Narayanan</p>
+<p class="venue">IEEE Journal of Biomedical and Health Informatics · 2024</p>
+<div class="paper-actions"><a href="https://ieeexplore.ieee.org/abstract/document/10574308/" target="_blank" rel="noopener" aria-label="Paper: Scaling Representation Learning From Ubiquitous ECG With State-Space Models">Paper <span aria-hidden="true">↗</span></a><a href="https://ieeexplore.ieee.org/iel8/6221020/6363502/10574308.pdf" target="_blank" rel="noopener" aria-label="PDF: Scaling Representation Learning From Ubiquitous ECG With State-Space Models">PDF <span aria-hidden="true">↗</span></a><a href="https://github.com/klean2050/tiles_ecg_model" target="_blank" rel="noopener" aria-label="Code: Scaling Representation Learning From Ubiquitous ECG With State-Space Models">Code <span aria-hidden="true">↗</span></a><button class="bib-toggle" aria-expanded="false" aria-controls="bib-work-avramidis2023scaling">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for Scaling Representation Learning From Ubiquitous ECG With State-Space Models</span></button></div>
+<div class="citation" id="bib-work-avramidis2023scaling" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for Scaling Representation Learning From Ubiquitous ECG With State-Space Models">Copy</button></div><pre><code>@article{avramidis2023scaling,
+  title={Scaling Representation Learning From Ubiquitous ECG With State-Space Models},
+  author={Kleanthis Avramidis and Dominika Kunc and Bartosz Perz and Kranti Adsul and Tiantian Feng and Przemysław Kazienko and Stanisław Saganowski and Shrikanth Narayanan},
+  year={2024},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  publisher={IEEE},
+  url={https://ieeexplore.ieee.org/abstract/document/10574308/}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
+<article class="paper" id="work-neural-codecs-as-biosignal-tokenizers" aria-labelledby="title-work-neural-codecs-as-biosignal-tokenizers">
+<h3 id="title-work-neural-codecs-as-biosignal-tokenizers"><span class="reference-number">2.</span> <a href="https://arxiv.org/abs/2510.09095" target="_blank" rel="noopener">Neural Codecs as Biosignal Tokenizers</a></h3>
+<p class="authors"><strong>Kleanthis Avramidis</strong>, Tiantian Feng, Woojae Jeong, Jihwan Lee, Wenhui Cui, Richard M Leahy, Shrikanth Narayanan</p>
+<p class="venue">arXiv preprint · 2025</p>
+<div class="paper-actions"><a href="https://arxiv.org/abs/2510.09095" target="_blank" rel="noopener" aria-label="Paper: Neural Codecs as Biosignal Tokenizers">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/pdf/2510.09095" target="_blank" rel="noopener" aria-label="PDF: Neural Codecs as Biosignal Tokenizers">PDF <span aria-hidden="true">↗</span></a><a href="https://github.com/klean2050/BioCodec-release" target="_blank" rel="noopener" aria-label="Code: Neural Codecs as Biosignal Tokenizers">Code <span aria-hidden="true">↗</span></a><button class="bib-toggle" aria-expanded="false" aria-controls="bib-work-neural-codecs-as-biosignal-tokenizers">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for Neural Codecs as Biosignal Tokenizers</span></button></div>
+<div class="citation" id="bib-work-neural-codecs-as-biosignal-tokenizers" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for Neural Codecs as Biosignal Tokenizers">Copy</button></div><pre><code>@article{neural-codecs-as-biosignal-tokenizers,
+  title={Neural Codecs as Biosignal Tokenizers},
+  author={Kleanthis Avramidis and Tiantian Feng and Woojae Jeong and Jihwan Lee and Wenhui Cui and Richard M Leahy and Shrikanth Narayanan},
+  year={2025},
+  journal={arXiv preprint arXiv:2510.09095},
+  url={https://arxiv.org/abs/2510.09095}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
+<article class="paper" id="work-avramidis2026braincodes" aria-labelledby="title-work-avramidis2026braincodes">
+<h3 id="title-work-avramidis2026braincodes"><span class="reference-number">3.</span> <a href="https://arxiv.org/abs/2610.29320" target="_blank" rel="noopener">BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes</a></h3>
+<p class="authors"><strong>Kleanthis Avramidis</strong>, Ivan Tashev, Dimitra Emmanouilidou</p>
+<p class="venue">arXiv preprint · 2026</p>
+<div class="paper-actions"><a href="https://arxiv.org/abs/2610.29320" target="_blank" rel="noopener" aria-label="Paper: BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/pdf/2610.29320" target="_blank" rel="noopener" aria-label="PDF: BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes">PDF <span aria-hidden="true">↗</span></a><a href="https://github.com/microsoft/BrainCodes" target="_blank" rel="noopener" aria-label="Code: BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes">Code <span aria-hidden="true">↗</span></a><a href="https://microsoft.github.io/BrainCodes/" target="_blank" rel="noopener" aria-label="Website: BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes">Website <span aria-hidden="true">↗</span></a><button class="bib-toggle" aria-expanded="false" aria-controls="bib-work-avramidis2026braincodes">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes</span></button></div>
+<div class="citation" id="bib-work-avramidis2026braincodes" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes">Copy</button></div><pre><code>@misc{avramidis2026braincodes,
+  title={BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes},
+  author={Kleanthis Avramidis and Ivan Tashev and Dimitra Emmanouilidou},
+  year={2026},
+  eprint={2610.29320},
+  archivePrefix={arXiv},
+  url={https://arxiv.org/abs/2610.29320}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
+<article class="paper" id="work-a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models" aria-labelledby="title-work-a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models">
+<h3 id="title-work-a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models"><span class="reference-number">4.</span> <a href="https://arxiv.org/abs/2605.28563" target="_blank" rel="noopener">A Multi-Dimensional Framework for Evaluating Generalization in EEG Foundation Models</a></h3>
+<p class="authors">Aditya Kommineni, Emily Zhou, <strong>Kleanthis Avramidis</strong>, Tiantian Feng, Shrikanth Narayanan</p>
+<p class="venue">Conference on Health, Inference, and Learning (CHIL) · 2026</p>
+<div class="paper-actions"><a href="https://arxiv.org/abs/2605.28563" target="_blank" rel="noopener" aria-label="Paper: A Multi-Dimensional Framework for Evaluating Generalization in EEG Foundation Models">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/pdf/2605.28563" target="_blank" rel="noopener" aria-label="PDF: A Multi-Dimensional Framework for Evaluating Generalization in EEG Foundation Models">PDF <span aria-hidden="true">↗</span></a><button class="bib-toggle" aria-expanded="false" aria-controls="bib-work-a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for A Multi-Dimensional Framework for Evaluating Generalization in EEG Foundation Models</span></button></div>
+<div class="citation" id="bib-work-a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for A Multi-Dimensional Framework for Evaluating Generalization in EEG Foundation Models">Copy</button></div><pre><code>@inproceedings{a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models,
+  title={A Multi-Dimensional Framework for Evaluating Generalization in EEG Foundation Models},
+  author={Aditya Kommineni and Emily Zhou and Kleanthis Avramidis and Tiantian Feng and Shrikanth Narayanan},
+  year={2026},
+  booktitle={Conference on Health, Inference, and Learning (CHIL)},
+  url={https://arxiv.org/abs/2605.28563}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
+<article class="paper" id="work-aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models" aria-labelledby="title-work-aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models">
+<h3 id="title-work-aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models"><span class="reference-number">5.</span> <a href="https://arxiv.org/abs/2605.26434" target="_blank" rel="noopener">Aperiodic and Low-Frequency Spectral Bias in Reconstruction-Based EEG Foundation Models</a></h3>
+<p class="authors">Aditya Kommineni, Emily Zhou, <strong>Kleanthis Avramidis</strong>, Simon Bock Segaard, Jeppe Roden Münster, Andreas Peter Juhl Hansen, Takfarinas Medani, Tiantian Feng, Richard Leahy, Shrikanth Narayanan</p>
+<p class="venue">arXiv preprint · 2026</p>
+<div class="paper-actions"><a href="https://arxiv.org/abs/2605.26434" target="_blank" rel="noopener" aria-label="Paper: Aperiodic and Low-Frequency Spectral Bias in Reconstruction-Based EEG Foundation Models">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/pdf/2605.26434" target="_blank" rel="noopener" aria-label="PDF: Aperiodic and Low-Frequency Spectral Bias in Reconstruction-Based EEG Foundation Models">PDF <span aria-hidden="true">↗</span></a><button class="bib-toggle" aria-expanded="false" aria-controls="bib-work-aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for Aperiodic and Low-Frequency Spectral Bias in Reconstruction-Based EEG Foundation Models</span></button></div>
+<div class="citation" id="bib-work-aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for Aperiodic and Low-Frequency Spectral Bias in Reconstruction-Based EEG Foundation Models">Copy</button></div><pre><code>@article{aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models,
+  title={Aperiodic and Low-Frequency Spectral Bias in Reconstruction-Based EEG Foundation Models},
+  author={Aditya Kommineni and Emily Zhou and Kleanthis Avramidis and Simon Bock Segaard and Jeppe Roden Münster and Andreas Peter Juhl Hansen and Takfarinas Medani and Tiantian Feng and Richard Leahy and Shrikanth Narayanan},
+  year={2026},
+  journal={arXiv preprint arXiv:2605.26434},
+  url={https://arxiv.org/abs/2605.26434}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
+<article class="paper" id="work-avramidis2026grounding" aria-labelledby="title-work-avramidis2026grounding">
+<h3 id="title-work-avramidis2026grounding"><span class="reference-number">6.</span> <a href="https://arxiv.org/abs/2610.29367" target="_blank" rel="noopener">Probing Spatial and Spectral Grounding in EEG Foundation Models</a></h3>
+<p class="authors"><strong>Kleanthis Avramidis</strong>, Ivan Tashev, Dimitra Emmanouilidou</p>
+<p class="venue">arXiv preprint · 2026</p>
+<div class="paper-actions"><a href="https://arxiv.org/abs/2610.29367" target="_blank" rel="noopener" aria-label="Paper: Probing Spatial and Spectral Grounding in EEG Foundation Models">Paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/pdf/2610.29367" target="_blank" rel="noopener" aria-label="PDF: Probing Spatial and Spectral Grounding in EEG Foundation Models">PDF <span aria-hidden="true">↗</span></a><button class="bib-toggle" aria-expanded="false" aria-controls="bib-work-avramidis2026grounding">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for Probing Spatial and Spectral Grounding in EEG Foundation Models</span></button></div>
+<div class="citation" id="bib-work-avramidis2026grounding" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for Probing Spatial and Spectral Grounding in EEG Foundation Models">Copy</button></div><pre><code>@misc{avramidis2026grounding,
+  title={Probing Spatial and Spectral Grounding in EEG Foundation Models},
+  author={Kleanthis Avramidis and Ivan Tashev and Dimitra Emmanouilidou},
+  year={2026},
+  eprint={2610.29367},
+  archivePrefix={arXiv},
+  url={https://arxiv.org/abs/2610.29367}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
+</section>
+</main>
+<footer>
+<p>© Kleanthis Avramidis<span class="last-updated"></span></p>
+</footer>
+<script src="../../assets/js/site.js">
+</script>
+<script src="../../assets/js/citations.js"></script>
+</body>
+</html>
