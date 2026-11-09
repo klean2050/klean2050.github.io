@@ -5,7 +5,7 @@ The workflow is configured for the supplied Overleaf project and its main file,
 updates the existing CV PDF, and requests a GitHub Pages rebuild. The CV navbar
 link stays the same. You can also run it from the Actions tab at any time.
 
-## One-time setup after publishing this packaged repo
+## One-time setup
 
 1. In Overleaf Account Settings, create a **Git authentication token**.
 2. In the website's GitHub repository, open **Settings > Secrets and variables >
@@ -22,9 +22,8 @@ The local pull/build was tested on November 6, 2026; the resulting five-page CV
 is included. The bundled `cv/latex/` files are an older manual fallback, not a
 copy of the live project. No private Overleaf source was added to the package.
 
-The standalone folder has no remote. The separate prepared migration clone
-points to the existing GitHub repository, but its redesign branch has not been
-pushed. No scheduled job is running from either local copy. The original website repository has not been modified.
+The workflow runs on the repository default branch, `gh-pages`. It remains
+disabled unless `OVERLEAF_CV_SYNC_ENABLED` is set to `true`.
 
 ## What the workflow does
 

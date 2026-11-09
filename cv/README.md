@@ -64,8 +64,7 @@ content; editing it does not regenerate the TeX document. Publications are in
 `../docs/publication-sources.json`; keep edits to that record, the Publications
 page and the CV in sync. The live Overleaf project is authoritative for the current CV; this snapshot is not automatically updated.
 
-The user-supplied source attachment, original PDFs and original website repository
-are unchanged. The class is included under its original notice, which permits
+The class is included under its original notice, which permits
 copying except for resale and requires retaining that notice.
 
 The older November 5 snapshot has seven pages, with complete publication entries kept

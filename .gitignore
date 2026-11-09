@@ -5,3 +5,7 @@ __pycache__/
 .idea/
 .vscode/
 *.log
+
+# Local build caches
+.jekyll-cache/
+_site/

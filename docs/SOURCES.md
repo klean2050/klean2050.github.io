@@ -1,7 +1,6 @@
 # Content and asset sources
 
-This package preserves the approved prototype. It is a separate local copy and
-does not contain the original website repository or its Git history.
+Content and image provenance for the current website.
 
 - Biography and original website content: Kleanthis Avramidis's existing website.
 - Homepage portrait: supplied by Kleanthis in this conversation, retained in its original colors.
