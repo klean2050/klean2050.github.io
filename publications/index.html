@@ -28,6 +28,8 @@
 <form class="publication-search" role="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><label class="visually-hidden" for="search">Search publications</label><input id="search" type="search" placeholder="Search publications" autocomplete="off"><button type="button" class="clear-search" aria-label="Clear search" hidden>×</button>
 </form>
 </div>
+<div class="type-filter" role="group" aria-label="Filter publications by type"><button type="button" data-type="all" aria-pressed="true">All <span class="type-count"></span></button><button type="button" data-type="journal" aria-pressed="false">Journals <span class="type-count"></span></button><button type="button" data-type="conference" aria-pressed="false">Conferences <span class="type-count"></span></button><button type="button" data-type="preprint" aria-pressed="false">Preprints <span class="type-count"></span></button><button type="button" data-type="abstract" aria-pressed="false">Abstracts <span class="type-count"></span></button><button type="button" data-type="patent" aria-pressed="false">Patents <span class="type-count"></span></button><button type="button" data-type="misc" aria-pressed="false" title="Books, theses and software">Misc <span class="type-count"></span></button>
+</div>
 <div class="publications-layout">
 <aside class="year-index">
 <nav aria-label="Publication years"><a href="#year-2026" class="current" aria-current="location">2026</a><a href="#year-2025">2025</a><a href="#year-2024">2024</a><a href="#year-2023">2023</a><a href="#year-2022">2022</a><a href="#year-2021">2021</a>
@@ -38,7 +40,7 @@
 <div class="year-heading">
 <h2 id="heading-2026">2026</h2>
 </div>
-<article class="paper" id="avramidis2026braincodes" aria-labelledby="title-avramidis2026braincodes">
+<article class="paper" id="avramidis2026braincodes" data-type="preprint" aria-labelledby="title-avramidis2026braincodes">
 <h3 id="title-avramidis2026braincodes"><a href="https://arxiv.org/abs/2610.29320" target="_blank" rel="noopener">BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes</a></h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Ivan Tashev, Dimitra Emmanouilidou</p>
 <p class="venue">arXiv preprint</p>
@@ -52,7 +54,7 @@
   url={https://arxiv.org/abs/2610.29320}
 }</code></pre><p class="copy-status" role="status"></p></div>
 </article>
-<article class="paper" id="avramidis2026grounding" aria-labelledby="title-avramidis2026grounding">
+<article class="paper" id="avramidis2026grounding" data-type="preprint" aria-labelledby="title-avramidis2026grounding">
 <h3 id="title-avramidis2026grounding"><a href="https://arxiv.org/abs/2610.29367" target="_blank" rel="noopener">Probing Spatial and Spectral Grounding in EEG Foundation Models</a></h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Ivan Tashev, Dimitra Emmanouilidou</p>
 <p class="venue">arXiv preprint</p>
@@ -66,7 +68,7 @@
   url={https://arxiv.org/abs/2610.29367}
 }</code></pre><p class="copy-status" role="status"></p></div>
 </article>
-<article class="paper" id="a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models" aria-labelledby="title-a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models">
+<article class="paper" id="a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models" data-type="conference" aria-labelledby="title-a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models">
 <h3 id="title-a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models"><a href="https://arxiv.org/abs/2605.28563" target="_blank" rel="noopener">A Multi-Dimensional Framework for Evaluating Generalization in EEG Foundation Models</a>
 </h3>
 <p class="authors">Aditya Kommineni, Emily Zhou, <strong>Kleanthis Avramidis</strong>, Tiantian Feng, Shrikanth Narayanan</p>
@@ -85,7 +87,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models" aria-labelledby="title-aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models">
+<article class="paper" id="aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models" data-type="preprint" aria-labelledby="title-aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models">
 <h3 id="title-aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models"><a href="https://arxiv.org/abs/2605.26434" target="_blank" rel="noopener">Aperiodic and Low-Frequency Spectral Bias in Reconstruction-Based EEG Foundation Models</a>
 </h3>
 <p class="authors">Aditya Kommineni, Emily Zhou, <strong>Kleanthis Avramidis</strong>, Simon Bock Segaard, Jeppe Roden Münster, Andreas Peter Juhl Hansen, Takfarinas Medani, Tiantian Feng, Richard Leahy, Shrikanth Narayanan</p>
@@ -104,7 +106,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="encoding-emotion-through-self-supervised-eye-movement-reconstruction" aria-labelledby="title-encoding-emotion-through-self-supervised-eye-movement-reconstruction">
+<article class="paper" id="encoding-emotion-through-self-supervised-eye-movement-reconstruction" data-type="conference" aria-labelledby="title-encoding-emotion-through-self-supervised-eye-movement-reconstruction">
 <h3 id="title-encoding-emotion-through-self-supervised-eye-movement-reconstruction"><a href="https://ieeexplore.ieee.org/abstract/document/11463336/" target="_blank" rel="noopener">Encoding Emotion Through Self-Supervised Eye Movement Reconstruction</a>
 </h3>
 <p class="authors">Marcus Ma, Jordan Prescott, Emily Zhou, Tiantian Feng, <strong>Kleanthis Avramidis</strong>, Gabor Mihaly Toth, Shrikanth Narayanan</p>
@@ -125,7 +127,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="a-point-process-model-of-skin-conductance-responses-in-a-stroop-task-for-predicting-depression-and-suicidal-ideation" aria-labelledby="title-a-point-process-model-of-skin-conductance-responses-in-a-stroop-task-for-predicting-depression-and-suicidal-ideation">
+<article class="paper" id="a-point-process-model-of-skin-conductance-responses-in-a-stroop-task-for-predicting-depression-and-suicidal-ideation" data-type="conference" aria-labelledby="title-a-point-process-model-of-skin-conductance-responses-in-a-stroop-task-for-predicting-depression-and-suicidal-ideation">
 <h3 id="title-a-point-process-model-of-skin-conductance-responses-in-a-stroop-task-for-predicting-depression-and-suicidal-ideation"><a href="https://ieeexplore.ieee.org/abstract/document/11460710/" target="_blank" rel="noopener">A Point Process Model of Skin Conductance Responses in a Stroop Task for Predicting Depression and Suicidal Ideation</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Myzelle Hughes, Idan A Blank, Dani Byrd, Assal Habibi, Takfarinas Medani, Richard M Leahy, Shrikanth Narayanan</p>
@@ -146,7 +148,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="avramidis2025deep" aria-labelledby="title-avramidis2025deep">
+<article class="paper" id="avramidis2025deep" data-type="journal" aria-labelledby="title-avramidis2025deep">
 <h3 id="title-avramidis2025deep"><a href="https://www.nature.com/articles/s41746-026-02550-4" target="_blank" rel="noopener">Deep Learning Characterizes Depression and Suicidal Ideation in Young Adults From Eye Movements</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Woojae Jeong, Aditya Kommineni, Sudarsana R Kadiri, Marcus Ma, Colin McDaniel, Myzelle Hughes, Thomas McGee, Elsi Kaiser, Dani Byrd, Assal Habibi, B Rael Cahn, Idan A Blank, Kristina Lerman, Takfarinas Medani, Richard M Leahy, Shrikanth Narayanan</p>
@@ -167,7 +169,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="generative-artificial-intelligence-ai-enabled-saliency-analysis-of-eye-tracking-in-cerebral-cortical-visual-impairment-set-cvi" aria-labelledby="title-generative-artificial-intelligence-ai-enabled-saliency-analysis-of-eye-tracking-in-cerebral-cortical-visual-impairment-set-cvi">
+<article class="paper" id="generative-artificial-intelligence-ai-enabled-saliency-analysis-of-eye-tracking-in-cerebral-cortical-visual-impairment-set-cvi" data-type="journal" aria-labelledby="title-generative-artificial-intelligence-ai-enabled-saliency-analysis-of-eye-tracking-in-cerebral-cortical-visual-impairment-set-cvi">
 <h3 id="title-generative-artificial-intelligence-ai-enabled-saliency-analysis-of-eye-tracking-in-cerebral-cortical-visual-impairment-set-cvi"><a href="https://www.sciencedirect.com/science/article/pii/S2666914526000199" target="_blank" rel="noopener">Generative Artificial Intelligence (AI)-Enabled Saliency Analysis of Eye Tracking in Cerebral/Cortical Visual Impairment (SET-CVI)</a>
 </h3>
 <p class="authors">Kate Matsunaga, <strong>Kleanthis Avramidis</strong>, Mark S Borchert, Shrikanth Narayanan, Melinda Y Chang</p>
@@ -188,12 +190,41 @@
 </p>
 </div>
 </article>
+<article class="paper" id="chang2026eyetracking" data-type="abstract" aria-labelledby="title-chang2026eyetracking">
+<h3 id="title-chang2026eyetracking"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mxLN1rUAAAAJ&amp;citation_for_view=mxLN1rUAAAAJ:k_IJM867U9cC" target="_blank" rel="noopener">Eye Tracking Metrics Mediate Adaptive Behavior Challenges in Children With Autism and Co-Morbid Visual Disorders</a></h3>
+<p class="authors">Melinda Chang, Mark W Reid, Kate Matsunaga, <strong>Kleanthis Avramidis</strong>, Shrikanth Narayanan</p>
+<p class="venue">Investigative Ophthalmology &amp; Visual Science</p>
+<div class="paper-actions"><button class="bib-toggle" aria-expanded="false" aria-controls="bib-chang2026eyetracking">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for Eye Tracking Metrics Mediate Adaptive Behavior Challenges in Children With Autism and Co-Morbid Visual Disorders</span></button></div>
+<div class="citation" id="bib-chang2026eyetracking" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for Eye Tracking Metrics Mediate Adaptive Behavior Challenges in Children With Autism and Co-Morbid Visual Disorders">Copy</button></div><pre><code>@article{chang2026eyetracking,
+  title={Eye Tracking Metrics Mediate Adaptive Behavior Challenges in Children With Autism and Co-Morbid Visual Disorders},
+  author={Melinda Chang and Mark W Reid and Kate Matsunaga and Kleanthis Avramidis and Shrikanth Narayanan},
+  year={2026},
+  journal={Investigative Ophthalmology \&amp; Visual Science},
+  volume={67},
+  number={7},
+  pages={338}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
+<article class="paper" id="severgnini2026vehicle" data-type="patent" aria-labelledby="title-severgnini2026vehicle">
+<h3 id="title-severgnini2026vehicle"><a href="https://patents.google.com/patent/US20260062019A1/en" target="_blank" rel="noopener">Systems and Methods for Vehicle Biometrics Processing and Vehicle Control</a></h3>
+<p class="authors">Frederico Marcolino Quintao Severgnini, <strong>Kleanthis Avramidis</strong>, Parveen Singh, Ercan M Dede, Paul D Schmalenberg</p>
+<p class="venue">US Patent Application 18/817,888 (Publication US 2026/0062019 A1)</p>
+<div class="paper-actions"><a href="https://patents.google.com/patent/US20260062019A1/en" target="_blank" rel="noopener" aria-label="Patent: Systems and Methods for Vehicle Biometrics Processing and Vehicle Control">Patent <span aria-hidden="true">↗</span></a><button class="bib-toggle" aria-expanded="false" aria-controls="bib-severgnini2026vehicle">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for Systems and Methods for Vehicle Biometrics Processing and Vehicle Control</span></button></div>
+<div class="citation" id="bib-severgnini2026vehicle" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for Systems and Methods for Vehicle Biometrics Processing and Vehicle Control">Copy</button></div><pre><code>@misc{severgnini2026vehicle,
+  title={Systems and Methods for Vehicle Biometrics Processing and Vehicle Control},
+  author={Frederico Marcolino Quintao Severgnini and Kleanthis Avramidis and Parveen Singh and Ercan M Dede and Paul D Schmalenberg},
+  year={2026},
+  howpublished={US Patent Application 18/817,888},
+  note={US Patent Application Publication US 2026/0062019 A1},
+  url={https://patents.google.com/patent/US20260062019A1/en}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
 </section>
 <section class="publication-year" id="year-2025" aria-labelledby="heading-2025">
 <div class="year-heading">
 <h2 id="heading-2025">2025</h2>
 </div>
-<article class="paper" id="neural-codecs-as-biosignal-tokenizers" aria-labelledby="title-neural-codecs-as-biosignal-tokenizers">
+<article class="paper" id="neural-codecs-as-biosignal-tokenizers" data-type="preprint" aria-labelledby="title-neural-codecs-as-biosignal-tokenizers">
 <h3 id="title-neural-codecs-as-biosignal-tokenizers"><a href="https://arxiv.org/abs/2510.09095" target="_blank" rel="noopener">Neural Codecs as Biosignal Tokenizers</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Tiantian Feng, Woojae Jeong, Jihwan Lee, Wenhui Cui, Richard M Leahy, Shrikanth Narayanan</p>
@@ -212,7 +243,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="timmons2025developing" aria-labelledby="title-timmons2025developing">
+<article class="paper" id="timmons2025developing" data-type="journal" aria-labelledby="title-timmons2025developing">
 <h3 id="title-timmons2025developing"><a href="https://www.nature.com/articles/s44184-025-00147-5" target="_blank" rel="noopener">Developing Personalized Algorithms for Sensing Mental Health Symptoms in Daily Life</a>
 </h3>
 <p class="authors">Adela C Timmons, Abdullah Aman Tutul, <strong>Kleanthis Avramidis</strong>, Jacqueline B Duong, Kayla E Carta, Sierra N Walters, Grace A Jumonville, Alyssa S Carrasco, Gabrielle F Freitag, Daniela N Romero, Matthew W Ahle, Jonathan S Comer, Shrikanth S Narayanan, Ishita P Khurd, Theodora Chaspari</p>
@@ -236,7 +267,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="avramidis2025estimating" aria-labelledby="title-avramidis2025estimating">
+<article class="paper" id="avramidis2025estimating" data-type="preprint" aria-labelledby="title-avramidis2025estimating">
 <h3 id="title-avramidis2025estimating"><a href="https://arxiv.org/abs/2507.14146" target="_blank" rel="noopener">Estimating Markers of Driving Stress Through Multimodal Physiological Monitoring</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Emily Zhou, Tiantian Feng, Hossein Hamidi Shishavan, Frederico Marcolino Quintao Severgnini, Danny J Lohan, Paul Schmalenberg, Ercan M Dede, Shrikanth Narayanan</p>
@@ -255,7 +286,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="hughesprecog" aria-labelledby="title-hughesprecog">
+<article class="paper" id="hughesprecog" data-type="preprint" aria-labelledby="title-hughesprecog">
 <h3 id="title-hughesprecog"><a href="https://osf.io/preprints/osf/nxvz5_v1" target="_blank" rel="noopener">PRECOG: Comprehensive Experimental Design and Stimuli Protocol for Investigating Depression and Suicidal Ideation</a>
 </h3>
 <p class="authors">Myzelle Hughes, Colin McDaniel, Takfarinas Medani, Woojae Jeong, Idan Blank, Dani Byrd, Thomas McGee, <strong>Kleanthis Avramidis</strong>, Sudarsana Kadiri, Chinmay Chinara, Kristina Lerman, Elsi Kaiser, Richard Leahy, Shrikanth Narayanan, Baruch Rael Cahn</p>
@@ -275,12 +306,38 @@
 </p>
 </div>
 </article>
+<article class="paper" id="matsunaga2025assessing" data-type="abstract" aria-labelledby="title-matsunaga2025assessing">
+<h3 id="title-matsunaga2025assessing"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mxLN1rUAAAAJ&amp;citation_for_view=mxLN1rUAAAAJ:7PzlFSSx8tAC" target="_blank" rel="noopener">Assessing Visual Saliency in Children With Cerebral/Cortical Visual Impairment (CVI) Using Generative AI and Eye Tracking</a></h3>
+<p class="authors">Kate Matsunaga, <strong>Kleanthis Avramidis</strong>, Shrikanth Narayanan, Mark Borchert, Melinda Chang</p>
+<p class="venue">Journal of American Association for Pediatric Ophthalmology and Strabismus (J AAPOS)</p>
+<div class="paper-actions"><button class="bib-toggle" aria-expanded="false" aria-controls="bib-matsunaga2025assessing">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for Assessing Visual Saliency in Children With Cerebral/Cortical Visual Impairment (CVI) Using Generative AI and Eye Tracking</span></button></div>
+<div class="citation" id="bib-matsunaga2025assessing" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for Assessing Visual Saliency in Children With Cerebral/Cortical Visual Impairment (CVI) Using Generative AI and Eye Tracking">Copy</button></div><pre><code>@article{matsunaga2025assessing,
+  title={Assessing Visual Saliency in Children With Cerebral/Cortical Visual Impairment (CVI) Using Generative AI and Eye Tracking},
+  author={Kate Matsunaga and Kleanthis Avramidis and Shrikanth Narayanan and Mark Borchert and Melinda Chang},
+  year={2025},
+  journal={Journal of American Association for Pediatric Ophthalmology and Strabismus (J AAPOS)}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
+<article class="paper" id="schmalenberg2025noncontact" data-type="patent" aria-labelledby="title-schmalenberg2025noncontact">
+<h3 id="title-schmalenberg2025noncontact"><a href="https://patents.google.com/patent/US20250107770A1/en" target="_blank" rel="noopener">Systems and Methods for Noncontact Monitor of Cardiac Activities</a></h3>
+<p class="authors">Paul D Schmalenberg, <strong>Kleanthis Avramidis</strong>, Frederico Marcolino Quintao Severgnini, Bryan Pardo</p>
+<p class="venue">US Patent Application 18/374,964 (Publication US 2025/0107770 A1)</p>
+<div class="paper-actions"><a href="https://patents.google.com/patent/US20250107770A1/en" target="_blank" rel="noopener" aria-label="Patent: Systems and Methods for Noncontact Monitor of Cardiac Activities">Patent <span aria-hidden="true">↗</span></a><button class="bib-toggle" aria-expanded="false" aria-controls="bib-schmalenberg2025noncontact">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for Systems and Methods for Noncontact Monitor of Cardiac Activities</span></button></div>
+<div class="citation" id="bib-schmalenberg2025noncontact" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for Systems and Methods for Noncontact Monitor of Cardiac Activities">Copy</button></div><pre><code>@misc{schmalenberg2025noncontact,
+  title={Systems and Methods for Noncontact Monitor of Cardiac Activities},
+  author={Paul D Schmalenberg and Kleanthis Avramidis and Frederico Marcolino Quintao Severgnini and Bryan Pardo},
+  year={2025},
+  howpublished={US Patent Application 18/374,964},
+  note={US Patent Application Publication US 2025/0107770 A1},
+  url={https://patents.google.com/patent/US20250107770A1/en}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
 </section>
 <section class="publication-year" id="year-2024" aria-labelledby="heading-2024">
 <div class="year-heading">
 <h2 id="heading-2024">2024</h2>
 </div>
-<article class="paper" id="kommineni2024knowledge" aria-labelledby="title-kommineni2024knowledge">
+<article class="paper" id="kommineni2024knowledge" data-type="conference" aria-labelledby="title-kommineni2024knowledge">
 <h3 id="title-kommineni2024knowledge"><a href="https://ieeexplore.ieee.org/abstract/document/10782310/" target="_blank" rel="noopener">Knowledge-Guided EEG Representation Learning</a>
 </h3>
 <p class="authors">Aditya Kommineni, <strong>Kleanthis Avramidis</strong>, Richard Leahy, Shrikanth Narayanan</p>
@@ -300,7 +357,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="avramidis2024evaluating" aria-labelledby="title-avramidis2024evaluating">
+<article class="paper" id="avramidis2024evaluating" data-type="conference" aria-labelledby="title-avramidis2024evaluating">
 <h3 id="title-avramidis2024evaluating"><a href="https://ieeexplore.ieee.org/abstract/document/10782199/" target="_blank" rel="noopener">Evaluating Atypical Gaze Patterns Through Vision Models: The Case of Cortical Visual Impairment</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Melinda Y Chang, Rahul Sharma, Mark S Borchert, Shrikanth Narayanan</p>
@@ -320,7 +377,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="avramidis2023scaling" aria-labelledby="title-avramidis2023scaling">
+<article class="paper" id="avramidis2023scaling" data-type="journal" aria-labelledby="title-avramidis2023scaling">
 <h3 id="title-avramidis2023scaling"><a href="https://ieeexplore.ieee.org/abstract/document/10574308/" target="_blank" rel="noopener">Scaling Representation Learning From Ubiquitous ECG With State-Space Models</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Dominika Kunc, Bartosz Perz, Kranti Adsul, Tiantian Feng, Przemysław Kazienko, Stanisław Saganowski, Shrikanth Narayanan</p>
@@ -340,12 +397,27 @@
 </p>
 </div>
 </article>
+<article class="paper" id="chang2024saliency" data-type="abstract" aria-labelledby="title-chang2024saliency">
+<h3 id="title-chang2024saliency"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mxLN1rUAAAAJ&amp;citation_for_view=mxLN1rUAAAAJ:KlAtU1dfN6UC" target="_blank" rel="noopener">Saliency Analysis of Eye Tracking in Children With Cortical/Cerebral Visual Impairment (CVI) Enabled by Machine Learning</a></h3>
+<p class="authors">Melinda Chang, <strong>Kleanthis Avramidis</strong>, Rahul Sharma, Mark Borchert, Shrikanth Narayanan</p>
+<p class="venue">Investigative Ophthalmology &amp; Visual Science</p>
+<div class="paper-actions"><button class="bib-toggle" aria-expanded="false" aria-controls="bib-chang2024saliency">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for Saliency Analysis of Eye Tracking in Children With Cortical/Cerebral Visual Impairment (CVI) Enabled by Machine Learning</span></button></div>
+<div class="citation" id="bib-chang2024saliency" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for Saliency Analysis of Eye Tracking in Children With Cortical/Cerebral Visual Impairment (CVI) Enabled by Machine Learning">Copy</button></div><pre><code>@article{chang2024saliency,
+  title={Saliency Analysis of Eye Tracking in Children With Cortical/Cerebral Visual Impairment (CVI) Enabled by Machine Learning},
+  author={Melinda Chang and Kleanthis Avramidis and Rahul Sharma and Mark Borchert and Shrikanth Narayanan},
+  year={2024},
+  journal={Investigative Ophthalmology \&amp; Visual Science},
+  volume={65},
+  number={7},
+  pages={1501}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
 </section>
 <section class="publication-year" id="year-2023" aria-labelledby="heading-2023">
 <div class="year-heading">
 <h2 id="heading-2023">2023</h2>
 </div>
-<article class="paper" id="avramidis2023role" aria-labelledby="title-avramidis2023role">
+<article class="paper" id="avramidis2023role" data-type="conference" aria-labelledby="title-avramidis2023role">
 <h3 id="title-avramidis2023role"><a href="https://ieeexplore.ieee.org/abstract/document/10094915/" target="_blank" rel="noopener">On the Role of Visual Context in Enriching Music Representations</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Shanti Stewart, Shrikanth Narayanan</p>
@@ -366,7 +438,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="Kleanthis-AmbientAI-Wkshp-ICASSP23" aria-labelledby="title-Kleanthis-AmbientAI-Wkshp-ICASSP23">
+<article class="paper" id="Kleanthis-AmbientAI-Wkshp-ICASSP23" data-type="conference" aria-labelledby="title-Kleanthis-AmbientAI-Wkshp-ICASSP23">
 <h3 id="title-Kleanthis-AmbientAI-Wkshp-ICASSP23"><a href="https://ieeexplore.ieee.org/abstract/document/10193718/" target="_blank" rel="noopener">Multimodal Estimation of Change Points of Physiological Arousal During Driving</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Tiantian Feng, Digbalay Bose, Shrikanth Narayanan</p>
@@ -387,7 +459,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="signal-processing-grand-challenge-2023e-prevention-sleep-behavior-as-an-indicator-of-relapses-in-psychotic-patients" aria-labelledby="title-signal-processing-grand-challenge-2023e-prevention-sleep-behavior-as-an-indicator-of-relapses-in-psychotic-patients">
+<article class="paper" id="signal-processing-grand-challenge-2023e-prevention-sleep-behavior-as-an-indicator-of-relapses-in-psychotic-patients" data-type="conference" aria-labelledby="title-signal-processing-grand-challenge-2023e-prevention-sleep-behavior-as-an-indicator-of-relapses-in-psychotic-patients">
 <h3 id="title-signal-processing-grand-challenge-2023e-prevention-sleep-behavior-as-an-indicator-of-relapses-in-psychotic-patients"><a href="https://ieeexplore.ieee.org/abstract/document/10096044/" target="_blank" rel="noopener">Signal Processing Grand Challenge 2023–E-Prevention: Sleep Behavior as an Indicator of Relapses in Psychotic Patients</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Kranti Adsul, Digbalay Bose, Shrikanth Narayanan</p>
@@ -408,12 +480,26 @@
 </p>
 </div>
 </article>
+<article class="paper" id="avramidis2023ecgaugmentations" data-type="misc" aria-labelledby="title-avramidis2023ecgaugmentations">
+<h3 id="title-avramidis2023ecgaugmentations"><a href="https://github.com/klean2050/ecg-augmentations" target="_blank" rel="noopener">ECG-Augmentations: ECG Signal Augmentations for PyTorch</a></h3>
+<p class="authors"><strong>Kleanthis Avramidis</strong></p>
+<p class="venue">Software, Zenodo</p>
+<div class="paper-actions"><a href="https://github.com/klean2050/ecg-augmentations" target="_blank" rel="noopener" aria-label="Code: ECG-Augmentations: ECG Signal Augmentations for PyTorch">Code <span aria-hidden="true">↗</span></a><a href="https://doi.org/10.5281/zenodo.8053042" target="_blank" rel="noopener" aria-label="Zenodo: ECG-Augmentations: ECG Signal Augmentations for PyTorch">Zenodo <span aria-hidden="true">↗</span></a><button class="bib-toggle" aria-expanded="false" aria-controls="bib-avramidis2023ecgaugmentations">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for ECG-Augmentations: ECG Signal Augmentations for PyTorch</span></button></div>
+<div class="citation" id="bib-avramidis2023ecgaugmentations" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for ECG-Augmentations: ECG Signal Augmentations for PyTorch">Copy</button></div><pre><code>@misc{avramidis2023ecgaugmentations,
+  title={ECG-Augmentations: ECG Signal Augmentations for PyTorch},
+  author={Kleanthis Avramidis},
+  year={2023},
+  publisher={Zenodo},
+  doi={10.5281/zenodo.8053042},
+  url={https://github.com/klean2050/ecg-augmentations}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
 </section>
 <section class="publication-year" id="year-2022" aria-labelledby="heading-2022">
 <div class="year-heading">
 <h2 id="heading-2022">2022</h2>
 </div>
-<article class="paper" id="avramidis2022automating" aria-labelledby="title-avramidis2022automating">
+<article class="paper" id="avramidis2022automating" data-type="conference" aria-labelledby="title-avramidis2022automating">
 <h3 id="title-avramidis2022automating"><a href="https://ieeexplore.ieee.org/abstract/document/9897529/" target="_blank" rel="noopener">Automating Detection of Papilledema in Pediatric Fundus Images With Explainable Machine Learning</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Mohammad Rostami, Melinda Chang, Shrikanth Narayanan</p>
@@ -434,7 +520,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="avramidis2022enhancing" aria-labelledby="title-avramidis2022enhancing">
+<article class="paper" id="avramidis2022enhancing" data-type="conference" aria-labelledby="title-avramidis2022enhancing">
 <h3 id="title-avramidis2022enhancing"><a href="https://ieeexplore.ieee.org/abstract/document/9746643/" target="_blank" rel="noopener">Enhancing Affective Representations of Music-Induced EEG Through Multimodal Supervision and Latent Domain Adaptation</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Christos Garoufis, Athanasia Zlatintsi, Petros Maragos</p>
@@ -455,12 +541,25 @@
 </p>
 </div>
 </article>
+<article class="paper" id="avramidis2022affective" data-type="misc" aria-labelledby="title-avramidis2022affective">
+<h3 id="title-avramidis2022affective"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=mxLN1rUAAAAJ&amp;citation_for_view=mxLN1rUAAAAJ:qjMakFHDy7sC" target="_blank" rel="noopener">Affective Analysis and Interpretation of Brain Responses to Music Stimuli</a></h3>
+<p class="authors"><strong>Kleanthis Avramidis</strong></p>
+<p class="venue">Diploma thesis, National Technical University of Athens. Advisor: Petros Maragos</p>
+<div class="paper-actions"><button class="bib-toggle" aria-expanded="false" aria-controls="bib-avramidis2022affective">BibTeX <span aria-hidden="true">＋</span><span class="visually-hidden"> for Affective Analysis and Interpretation of Brain Responses to Music Stimuli</span></button></div>
+<div class="citation" id="bib-avramidis2022affective" hidden><div class="citation-tools"><span>BibTeX</span><button class="copy-citation" aria-label="Copy citation for Affective Analysis and Interpretation of Brain Responses to Music Stimuli">Copy</button></div><pre><code>@mastersthesis{avramidis2022affective,
+  title={Affective Analysis and Interpretation of Brain Responses to Music Stimuli},
+  author={Kleanthis Avramidis},
+  year={2022},
+  school={National Technical University of Athens},
+  type={Diploma thesis}
+}</code></pre><p class="copy-status" role="status"></p></div>
+</article>
 </section>
 <section class="publication-year" id="year-2021" aria-labelledby="heading-2021">
 <div class="year-heading">
 <h2 id="heading-2021">2021</h2>
 </div>
-<article class="paper" id="avramidis2021multiscale" aria-labelledby="title-avramidis2021multiscale">
+<article class="paper" id="avramidis2021multiscale" data-type="conference" aria-labelledby="title-avramidis2021multiscale">
 <h3 id="title-avramidis2021multiscale"><a href="https://ieeexplore.ieee.org/abstract/document/9616140/" target="_blank" rel="noopener">Multiscale Fractal Analysis on EEG Signals for Music-Induced Emotion Recognition</a>
 </h3>
 <p class="authors"><strong>Kleanthis Avramidis</strong>, Athanasia Zlatintsi, Christos Garoufis, Petros Maragos</p>
@@ -481,7 +580,7 @@
 </p>
 </div>
 </article>
-<article class="paper" id="kratimenos2021augmentation" aria-labelledby="title-kratimenos2021augmentation">
+<article class="paper" id="kratimenos2021augmentation" data-type="conference" aria-labelledby="title-kratimenos2021augmentation">
 <h3 id="title-kratimenos2021augmentation"><a href="https://ieeexplore.ieee.org/abstract/document/9287745/" target="_blank" rel="noopener">Augmentation Methods on Monophonic Audio for Instrument Classification in Polyphonic Music</a>
 </h3>
 <p class="authors">Agelos Kratimenos, <strong>Kleanthis Avramidis</strong>, Christos Garoufis, Athanasia Zlatintsi, Petros Maragos</p>
@@ -504,8 +603,8 @@
 </article>
 </section>
 <div class="no-results" hidden>
-<p>No publications match your search.</p>
-<button type="button" class="reset-search">Clear search</button>
+<p>No publications match the current filters.</p>
+<button type="button" class="reset-search">Show all publications</button>
 </div>
 <p class="visually-hidden" id="result-status" role="status" aria-live="polite">
 </p>

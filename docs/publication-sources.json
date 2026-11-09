@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-04",
-  "scholar_records_checked": 49,
+  "checked": "2026-11-09",
+  "scholar_records_checked": 52,
   "selection": "First- and co-first-author papers and collaborations closely aligned with biosignal representations, multimodal behavior, and clinical translation, with the user’s explicit exclusions applied.",
   "entries": [
     {
@@ -29,7 +29,8 @@
         "https://github.com/microsoft/BrainCodes",
         "https://microsoft.github.io/BrainCodes/"
       ],
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "type": "preprint"
     },
     {
       "key": "avramidis2026grounding",
@@ -55,7 +56,8 @@
       "sources": [
         "https://arxiv.org/abs/2610.29367"
       ],
-      "checked": "2026-11-04"
+      "checked": "2026-11-04",
+      "type": "preprint"
     },
     {
       "key": "a-multi-dimensional-framework-for-evaluating-generalization-in-eeg-foundation-models",
@@ -82,7 +84,8 @@
       "sources": [
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:TFP_iSt0sucC",
         "https://arxiv.org/abs/2605.28563"
-      ]
+      ],
+      "type": "conference"
     },
     {
       "key": "aperiodic-and-low-frequency-spectral-bias-in-reconstruction-based-eeg-foundation-models",
@@ -114,7 +117,8 @@
       "sources": [
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:isC4tDSrTZIC",
         "https://arxiv.org/abs/2605.26434"
-      ]
+      ],
+      "type": "preprint"
     },
     {
       "key": "encoding-emotion-through-self-supervised-eye-movement-reconstruction",
@@ -143,7 +147,8 @@
       "sources": [
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:mB3voiENLucC",
         "https://ieeexplore.ieee.org/abstract/document/11463336/"
-      ]
+      ],
+      "type": "conference"
     },
     {
       "key": "a-point-process-model-of-skin-conductance-responses-in-a-stroop-task-for-predicting-depression-and-suicidal-ideation",
@@ -173,7 +178,8 @@
       "sources": [
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:L8Ckcad2t8MC",
         "https://ieeexplore.ieee.org/abstract/document/11460710/"
-      ]
+      ],
+      "type": "conference"
     },
     {
       "key": "avramidis2025deep",
@@ -213,7 +219,8 @@
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:RHpTSmoSYBkC",
         "https://www.nature.com/articles/s41746-026-02550-4",
         "https://github.com/usc-sail/precog-eye-dl"
-      ]
+      ],
+      "type": "journal"
     },
     {
       "key": "generative-artificial-intelligence-ai-enabled-saliency-analysis-of-eye-tracking-in-cerebral-cortical-visual-impairment-set-cvi",
@@ -240,7 +247,8 @@
       "sources": [
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:HDshCWvjkbEC",
         "https://www.sciencedirect.com/science/article/pii/S2666914526000199"
-      ]
+      ],
+      "type": "journal"
     },
     {
       "key": "neural-codecs-as-biosignal-tokenizers",
@@ -270,7 +278,8 @@
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:ZeXyd9-uunAC",
         "https://arxiv.org/abs/2510.09095",
         "https://github.com/klean2050/BioCodec-release"
-      ]
+      ],
+      "type": "preprint"
     },
     {
       "key": "timmons2025developing",
@@ -307,7 +316,8 @@
       "sources": [
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:dhFuZR0502QC",
         "https://www.nature.com/articles/s44184-025-00147-5"
-      ]
+      ],
+      "type": "journal"
     },
     {
       "key": "avramidis2025estimating",
@@ -339,7 +349,8 @@
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:Wp0gIr-vW9MC",
         "https://arxiv.org/abs/2507.14146",
         "https://github.com/usc-sail/driving-stressors"
-      ]
+      ],
+      "type": "preprint"
     },
     {
       "key": "hughesprecog",
@@ -376,7 +387,8 @@
       "sources": [
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:9ZlFYXVOiuMC",
         "https://osf.io/preprints/osf/nxvz5_v1"
-      ]
+      ],
+      "type": "preprint"
     },
     {
       "key": "kommineni2024knowledge",
@@ -403,7 +415,8 @@
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:3fE2CSJIrl8C",
         "https://ieeexplore.ieee.org/abstract/document/10782310/",
         "https://github.com/Uncertain-Quark/s4_eeg"
-      ]
+      ],
+      "type": "conference"
     },
     {
       "key": "avramidis2024evaluating",
@@ -431,7 +444,8 @@
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:8k81kl-MbHgC",
         "https://ieeexplore.ieee.org/abstract/document/10782199/",
         "https://github.com/klean2050/cvi-eye-tracking"
-      ]
+      ],
+      "type": "conference"
     },
     {
       "key": "avramidis2023scaling",
@@ -462,7 +476,8 @@
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:5nxA0vEk-isC",
         "https://ieeexplore.ieee.org/abstract/document/10574308/",
         "https://github.com/klean2050/tiles_ecg_model"
-      ]
+      ],
+      "type": "journal"
     },
     {
       "key": "avramidis2023role",
@@ -488,7 +503,8 @@
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:zYLM7Y9cAGgC",
         "https://ieeexplore.ieee.org/abstract/document/10094915/",
         "https://github.com/klean2050/VCMR"
-      ]
+      ],
+      "type": "conference"
     },
     {
       "key": "Kleanthis-AmbientAI-Wkshp-ICASSP23",
@@ -515,7 +531,8 @@
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:W7OEmFMy1HYC",
         "https://ieeexplore.ieee.org/abstract/document/10193718/",
         "https://github.com/usc-sail/ggs_driving"
-      ]
+      ],
+      "type": "conference"
     },
     {
       "key": "signal-processing-grand-challenge-2023e-prevention-sleep-behavior-as-an-indicator-of-relapses-in-psychotic-patients",
@@ -541,7 +558,8 @@
       "sources": [
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&cstart=20&pagesize=80&citation_for_view=mxLN1rUAAAAJ:Y0pCki6q_DkC",
         "https://ieeexplore.ieee.org/abstract/document/10096044/"
-      ]
+      ],
+      "type": "conference"
     },
     {
       "key": "avramidis2022automating",
@@ -568,7 +586,8 @@
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:IjCSPb-OGe4C",
         "https://ieeexplore.ieee.org/abstract/document/9897529/",
         "https://github.com/klean2050/papilledema"
-      ]
+      ],
+      "type": "conference"
     },
     {
       "key": "avramidis2022enhancing",
@@ -595,7 +614,8 @@
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:UeHWp8X0CEIC",
         "https://ieeexplore.ieee.org/abstract/document/9746643/",
         "https://github.com/klean2050/EEG_CrossModal"
-      ]
+      ],
+      "type": "conference"
     },
     {
       "key": "avramidis2021multiscale",
@@ -621,7 +641,8 @@
       "sources": [
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:u-x6o8ySG0sC",
         "https://ieeexplore.ieee.org/abstract/document/9616140/"
-      ]
+      ],
+      "type": "conference"
     },
     {
       "key": "kratimenos2021augmentation",
@@ -649,8 +670,192 @@
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:u5HHmVD_uO8C",
         "https://ieeexplore.ieee.org/abstract/document/9287745/",
         "https://github.com/klean2050/IC_Augment"
-      ]
+      ],
+      "type": "conference"
+    },
+    {
+      "key": "chang2026eyetracking",
+      "type": "abstract",
+      "title": "Eye Tracking Metrics Mediate Adaptive Behavior Challenges in Children With Autism and Co-Morbid Visual Disorders",
+      "source_title": "Eye tracking metrics mediate adaptive behavior challenges in children with autism and co-morbid visual disorders",
+      "author": "Melinda Chang and Mark W Reid and Kate Matsunaga and Kleanthis Avramidis and Shrikanth Narayanan",
+      "authors": [
+        "Melinda Chang",
+        "Mark W Reid",
+        "Kate Matsunaga",
+        "Kleanthis Avramidis",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2026",
+      "venue": "Investigative Ophthalmology & Visual Science",
+      "html": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:k_IJM867U9cC",
+      "links": {},
+      "raw": "@article{chang2026eyetracking,\n  title={Eye Tracking Metrics Mediate Adaptive Behavior Challenges in Children With Autism and Co-Morbid Visual Disorders},\n  author={Melinda Chang and Mark W Reid and Kate Matsunaga and Kleanthis Avramidis and Shrikanth Narayanan},\n  year={2026},\n  journal={Investigative Ophthalmology \\& Visual Science},\n  volume={67},\n  number={7},\n  pages={338}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "Added November 9, 2026 at the user’s request with the new Abstracts, Patents and Misc categories.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:k_IJM867U9cC"
+      ],
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "severgnini2026vehicle",
+      "type": "patent",
+      "title": "Systems and Methods for Vehicle Biometrics Processing and Vehicle Control",
+      "source_title": "Systems and Methods for Vehicle Biometrics Processing and Vehicle Control",
+      "author": "Frederico Marcolino Quintao Severgnini and Kleanthis Avramidis and Parveen Singh and Ercan M Dede and Paul D Schmalenberg",
+      "authors": [
+        "Frederico Marcolino Quintao Severgnini",
+        "Kleanthis Avramidis",
+        "Parveen Singh",
+        "Ercan M Dede",
+        "Paul D Schmalenberg"
+      ],
+      "year": "2026",
+      "venue": "US Patent Application 18/817,888 (Publication US 2026/0062019 A1)",
+      "html": "https://patents.google.com/patent/US20260062019A1/en",
+      "links": {
+        "Patent": "https://patents.google.com/patent/US20260062019A1/en"
+      },
+      "raw": "@misc{severgnini2026vehicle,\n  title={Systems and Methods for Vehicle Biometrics Processing and Vehicle Control},\n  author={Frederico Marcolino Quintao Severgnini and Kleanthis Avramidis and Parveen Singh and Ercan M Dede and Paul D Schmalenberg},\n  year={2026},\n  howpublished={US Patent Application 18/817,888},\n  note={US Patent Application Publication US 2026/0062019 A1},\n  url={https://patents.google.com/patent/US20260062019A1/en}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "Added November 9, 2026 at the user’s request with the new Abstracts, Patents and Misc categories.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:4JMBOYKVnBMC",
+        "https://patents.google.com/patent/US20260062019A1/en"
+      ],
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "matsunaga2025assessing",
+      "type": "abstract",
+      "title": "Assessing Visual Saliency in Children With Cerebral/Cortical Visual Impairment (CVI) Using Generative AI and Eye Tracking",
+      "source_title": "Assessing Visual Saliency in Children with Cerebral/Cortical Visual Impairment (CVI) Using Generative AI and Eye Tracking",
+      "author": "Kate Matsunaga and Kleanthis Avramidis and Shrikanth Narayanan and Mark Borchert and Melinda Chang",
+      "authors": [
+        "Kate Matsunaga",
+        "Kleanthis Avramidis",
+        "Shrikanth Narayanan",
+        "Mark Borchert",
+        "Melinda Chang"
+      ],
+      "year": "2025",
+      "venue": "Journal of American Association for Pediatric Ophthalmology and Strabismus (J AAPOS)",
+      "html": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:7PzlFSSx8tAC",
+      "links": {},
+      "raw": "@article{matsunaga2025assessing,\n  title={Assessing Visual Saliency in Children With Cerebral/Cortical Visual Impairment (CVI) Using Generative AI and Eye Tracking},\n  author={Kate Matsunaga and Kleanthis Avramidis and Shrikanth Narayanan and Mark Borchert and Melinda Chang},\n  year={2025},\n  journal={Journal of American Association for Pediatric Ophthalmology and Strabismus (J AAPOS)}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "Added November 9, 2026 at the user’s request with the new Abstracts, Patents and Misc categories.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:7PzlFSSx8tAC"
+      ],
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "schmalenberg2025noncontact",
+      "type": "patent",
+      "title": "Systems and Methods for Noncontact Monitor of Cardiac Activities",
+      "source_title": "Systems and Methods for Noncontact Monitor of Cardiac Activities",
+      "author": "Paul D Schmalenberg and Kleanthis Avramidis and Frederico Marcolino Quintao Severgnini and Bryan Pardo",
+      "authors": [
+        "Paul D Schmalenberg",
+        "Kleanthis Avramidis",
+        "Frederico Marcolino Quintao Severgnini",
+        "Bryan Pardo"
+      ],
+      "year": "2025",
+      "venue": "US Patent Application 18/374,964 (Publication US 2025/0107770 A1)",
+      "html": "https://patents.google.com/patent/US20250107770A1/en",
+      "links": {
+        "Patent": "https://patents.google.com/patent/US20250107770A1/en"
+      },
+      "raw": "@misc{schmalenberg2025noncontact,\n  title={Systems and Methods for Noncontact Monitor of Cardiac Activities},\n  author={Paul D Schmalenberg and Kleanthis Avramidis and Frederico Marcolino Quintao Severgnini and Bryan Pardo},\n  year={2025},\n  howpublished={US Patent Application 18/374,964},\n  note={US Patent Application Publication US 2025/0107770 A1},\n  url={https://patents.google.com/patent/US20250107770A1/en}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "Added November 9, 2026 at the user’s request with the new Abstracts, Patents and Misc categories.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:4DMP91E08xMC",
+        "https://patents.google.com/patent/US20250107770A1/en"
+      ],
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "chang2024saliency",
+      "type": "abstract",
+      "title": "Saliency Analysis of Eye Tracking in Children With Cortical/Cerebral Visual Impairment (CVI) Enabled by Machine Learning",
+      "source_title": "Saliency Analysis of Eye Tracking in Children with Cortical/cerebral Visual Impairment (CVI) enabled by Machine Learning",
+      "author": "Melinda Chang and Kleanthis Avramidis and Rahul Sharma and Mark Borchert and Shrikanth Narayanan",
+      "authors": [
+        "Melinda Chang",
+        "Kleanthis Avramidis",
+        "Rahul Sharma",
+        "Mark Borchert",
+        "Shrikanth Narayanan"
+      ],
+      "year": "2024",
+      "venue": "Investigative Ophthalmology & Visual Science",
+      "html": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:KlAtU1dfN6UC",
+      "links": {},
+      "raw": "@article{chang2024saliency,\n  title={Saliency Analysis of Eye Tracking in Children With Cortical/Cerebral Visual Impairment (CVI) Enabled by Machine Learning},\n  author={Melinda Chang and Kleanthis Avramidis and Rahul Sharma and Mark Borchert and Shrikanth Narayanan},\n  year={2024},\n  journal={Investigative Ophthalmology \\& Visual Science},\n  volume={65},\n  number={7},\n  pages={1501}\n}",
+      "first_author": false,
+      "co_first_author": false,
+      "selection_reason": "Added November 9, 2026 at the user’s request with the new Abstracts, Patents and Misc categories.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:KlAtU1dfN6UC"
+      ],
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "avramidis2023ecgaugmentations",
+      "type": "misc",
+      "title": "ECG-Augmentations: ECG Signal Augmentations for PyTorch",
+      "source_title": "ECG-augmentations",
+      "author": "Kleanthis Avramidis",
+      "authors": [
+        "Kleanthis Avramidis"
+      ],
+      "year": "2023",
+      "venue": "Software, Zenodo",
+      "html": "https://github.com/klean2050/ecg-augmentations",
+      "links": {
+        "Code": "https://github.com/klean2050/ecg-augmentations",
+        "Zenodo": "https://doi.org/10.5281/zenodo.8053042"
+      },
+      "raw": "@misc{avramidis2023ecgaugmentations,\n  title={ECG-Augmentations: ECG Signal Augmentations for PyTorch},\n  author={Kleanthis Avramidis},\n  year={2023},\n  publisher={Zenodo},\n  doi={10.5281/zenodo.8053042},\n  url={https://github.com/klean2050/ecg-augmentations}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "Added November 9, 2026 at the user’s request with the new Abstracts, Patents and Misc categories.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:hFOr9nPyWt4C",
+        "https://github.com/klean2050/ecg-augmentations/blob/main/CITATION.cff"
+      ],
+      "checked": "2026-11-09"
+    },
+    {
+      "key": "avramidis2022affective",
+      "type": "misc",
+      "title": "Affective Analysis and Interpretation of Brain Responses to Music Stimuli",
+      "source_title": "Affective Analysis and Interpretation of Brain Responses to Music Stimuli",
+      "author": "Kleanthis Avramidis",
+      "authors": [
+        "Kleanthis Avramidis"
+      ],
+      "year": "2022",
+      "venue": "Diploma thesis, National Technical University of Athens. Advisor: Petros Maragos",
+      "html": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:qjMakFHDy7sC",
+      "links": {},
+      "raw": "@mastersthesis{avramidis2022affective,\n  title={Affective Analysis and Interpretation of Brain Responses to Music Stimuli},\n  author={Kleanthis Avramidis},\n  year={2022},\n  school={National Technical University of Athens},\n  type={Diploma thesis}\n}",
+      "first_author": true,
+      "co_first_author": false,
+      "selection_reason": "Added November 9, 2026 at the user’s request with the new Abstracts, Patents and Misc categories.",
+      "sources": [
+        "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mxLN1rUAAAAJ&citation_for_view=mxLN1rUAAAAJ:qjMakFHDy7sC"
+      ],
+      "checked": "2026-11-09"
     }
   ],
-  "check_scope": "October 17 selection retained; two October 21 first-author preprints and official BrainCodes Website/Code links added November 4. Other records were not re-audited."
+  "check_scope": "October 17 selection retained; two October 21 first-author preprints and official BrainCodes Website/Code links added November 4. Other records were not re-audited. November 9: every entry given a type (journal, conference, preprint, abstract, patent, misc); three abstracts, two patent applications, the ECG-augmentations software and the NTUA diploma thesis added. Other records were not re-audited."
 }

@@ -65,3 +65,26 @@ BrainCodes (arXiv:2610.29320) and Probing Spatial and Spectral Grounding in EEG
 Foundation Models (arXiv:2610.29367). All three authors are listed for each.
 BrainCodes also links its official Microsoft Code and Website. These additions
 bring the selection to 22 papers: 15 first/co-first-author and 7 collaborations.
+
+## November 9, 2026: types and non-paper outputs
+
+Each entry now has a type, used by the filter on the Publications page:
+4 journal articles, 12 conference papers, 6 preprints (PRECOG included),
+3 abstracts, 2 patent applications and 2 misc items (29 in total).
+
+Added at the user's request, from the Google Scholar profile (52 records) and Google Patents:
+
+- Abstracts: Eye Tracking Metrics Mediate Adaptive Behavior Challenges in Children With
+  Autism and Co-Morbid Visual Disorders (IOVS 67(7), 338, 2026); Assessing Visual Saliency
+  in Children With CVI Using Generative AI and Eye Tracking (J AAPOS, 2025); Saliency
+  Analysis of Eye Tracking in Children With CVI Enabled by Machine Learning (IOVS 65(7),
+  1501, 2024). Co-author Mark W Reid's first name was confirmed by the user. Their titles
+  link to the Scholar records because the journal hosts could not be reached to verify direct URLs.
+- Patents: US Patent Applications 18/817,888 (US 2026/0062019 A1) and 18/374,964
+  (US 2025/0107770 A1), both pending; inventor order follows Google Patents.
+- Misc: the ECG-augmentations software (Zenodo DOI 10.5281/zenodo.8053042) and the NTUA
+  diploma thesis (2022, advisor Petros Maragos). Both had been removed earlier; they return
+  under Misc.
+
+The other Scholar records listed above remain excluded. MtReNIRS (arXiv:2610.36159, Chae,
+Avramidis, Emmanouilidou, Tashev) is new on Scholar since November 4 and was not added.

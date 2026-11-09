@@ -109,6 +109,11 @@ def main():
     publications = ROOT / 'publications'
     inline = {unescape(c).strip() for c in re.findall(r'<code>(.*?)</code>', (publications / 'index.html').read_text(), re.S)}
     download = {e.strip() for e in re.split(r'\n(?=@)', (publications / 'publications.bib').read_text().strip())}
+    types = {'journal', 'conference', 'preprint', 'abstract', 'patent', 'misc'}
+    for tag in re.findall(r'<article class="paper"[^>]*>', (publications / 'index.html').read_text()):
+        kind = re.search(r'data-type="([^"]*)"', tag)
+        if not kind or kind.group(1) not in types:
+            errors.append(f'publications: missing or unknown data-type: {tag}')
     for entry in inline ^ download:
         where = 'page' if entry in inline else 'publications.bib'
         errors.append(f'publications: BibTeX only in {where}: {entry.splitlines()[0]}')

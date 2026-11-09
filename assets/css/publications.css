@@ -49,6 +49,36 @@
   line-height:1;
   padding:0;
   color:var(--muted)}
+.type-filter {
+  display:flex;
+  flex-wrap:wrap;
+  gap:3px;
+  padding:6px;
+  margin:0 0 34px;
+  background:var(--soft);
+  border-radius:10px}
+.type-filter button {
+  font:14px/1.5 var(--sans);
+  border:0;
+  padding:6px 13px;
+  border-radius:6px;
+  background:none;
+  color:var(--muted);
+  cursor:pointer}
+.type-filter button:hover {
+  color:var(--accent)}
+.type-filter button[aria-pressed="true"] {
+  background:var(--bg);
+  color:var(--accent);
+  font-weight:600}
+.type-count {
+  margin-left:2px;
+  font-size:12px;
+  font-weight:400;
+  font-variant-numeric:tabular-nums;
+  opacity:.75}
+.type-filter button.empty:not([aria-pressed="true"]) {
+  opacity:.5}
 .publications-layout {
   display:grid;
   grid-template-columns:112px minmax(0,1fr);
@@ -257,6 +287,16 @@ footer {
   .year-index {
     position:static;
     margin-bottom:26px  }
+  .type-filter {
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    scrollbar-width:none;
+    margin-bottom:12px  }
+  .type-filter::-webkit-scrollbar {
+    display:none  }
+  .type-filter button {
+    flex:none;
+    padding:6px 10px  }
   .year-index nav {
     flex-direction:row;
     justify-content:space-between;

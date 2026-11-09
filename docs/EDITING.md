@@ -6,7 +6,7 @@
 - `assets/css/publications.css`, `teaching.css`, `clicks.css`, `research.css`: page-specific layouts.
 - `assets/js/site.js`: mobile navigation and theme controls, loaded on every page.
 - `assets/js/home.js`: expand/collapse Updates.
-- `assets/js/publications.js`: publication search, years, BibTeX and copy controls.
+- `assets/js/publications.js`: publication search, type filter, years, BibTeX and copy controls.
 - `assets/js/citations.js`: BibTeX and copy controls on research pages.
 
 Navigation is ordinary HTML repeated in the eight pages, including 404. When changing a global
@@ -26,6 +26,12 @@ Edit `publications/index.html`. Duplicate an `<article class="paper">` inside th
 correct `.publication-year` section. Use a unique key consistently in the article
 ID, title ID, BibTeX control, and citation ID, and put the title in the Copy button's
 `aria-label`. For a new year, add both the year section and its `.year-index` link.
+
+Every article needs a `data-type`: `journal`, `conference`, `preprint`, `abstract`,
+`patent` or `misc` (books, theses and software). The type buttons above the list
+filter by it, combine with search, and count entries automatically; `?type=patent`
+links to a pre-filtered view. `scripts/check.py` rejects missing or unknown types.
+Workshop papers count as conferences; a preprint moves to its venue's type once published.
 
 List all authors and bold Kleanthis Avramidis. Keep paper titles capitalized
 consistently and venue names expanded. Do not add equal-contribution symbols or
